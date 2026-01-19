@@ -19,13 +19,15 @@
 
 ## Week 1 — Course Kickoff
 **Thu 1/22** — Kickoff  
-Course goals, logistics, how lightning sessions & project posters work.
+NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and posters).
 
 ---
 
 ## Week 2 — Bootcamp (Async)
 
 ### Tue 1/27 — Bootcamp I (async; completed during normal Tue class time)
+
+**Theme:** Deep learning intuition and neuroscience foundations (plus optional/conditional refreshers to level-set backgrounds)
 
 **Assigned Reading (all students):**
 - Doerig et al. (2023), *The neuroconnectionist research programme*  
@@ -69,65 +71,65 @@ Course goals, logistics, how lightning sessions & project posters work.
 
 ---
 
-## Week 3 — Modern Capabilities: Objectives
-**Tue 2/3** — Lecture: *Learning objectives debate*  
-(predictive/world-model vs masked reconstruction vs invariance/self-distillation)
+## Week 3 — The Three Levers of Deep Learning
+**Tue 2/3** — Lecture: *Architecture, Learning Objective, and Experience*  
+How architecture, learning objectives, and experience (data/scale) shape representations, behavior, and generalization across modalities.
 
-**Thu 2/5** — Lightning Mini-Conf 1: *Objectives / SSL*  
+**Thu 2/5** — Lightning Mini-Conf 1: *Three Levers of DL*  
 (scheduled subset of groups)
 
 ---
 
-## Week 4 — Modern Capabilities: Scaling & Emergence
-**Tue 2/10** — Lecture: *Scaling laws + "emergent abilities" + critiques*  
-(figure-first, debate framing)
+## Week 4 — Scaling and Emerging Capabilities
+**Tue 2/10** — Lecture: *Pretraining, Fine-tuning, and Emergence*  
+Pretraining and fine-tuning/transfer; in-context learning and reasoning; what "emergence" claims mean and how to evaluate them critically.
 
-**Thu 2/12** — Lightning Mini-Conf 2: *Scaling / Emergence*  
+**Thu 2/12** — Lightning Mini-Conf 2: *Scaling & Emergence*  
 (scheduled subset of groups)
 
 ---
 
-## Week 5 — XAI-A: Features, Concepts, SAEs
-**Tue 2/17** — Lecture: *XAI-A*  
-(feature visualization, concepts, SAEs/dictionary learning, "what we can name/see")
+## Week 5 — Representation-Level Interpretability
+**Tue 2/17** — Lecture: *Features, Concepts, and Sparse Methods*  
+Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably "name" in representations.
 
-**Thu 2/19** — Lightning Mini-Conf 3: *XAI-A*  
+**Thu 2/19** — Lightning Mini-Conf 3: *Representation Interpretability*  
 (scheduled subset of groups)
 
 ---
 
-## Week 6 — XAI-B: Mechanistic Interpretability
-**Tue 2/24** — Lecture: *XAI-B*  
-(mechanistic interpretability: circuits, causal interventions, what counts as evidence)
+## Week 6 — Mechanistic Interpretability
+**Tue 2/24** — Lecture: *Circuits and Causal Interventions*  
+Circuits, causal interventions, and standards of evidence for mechanistic claims.
 
-**Thu 2/26** — Lightning Mini-Conf 4: *XAI-B*  
+**Thu 2/26** — Lightning Mini-Conf 4: *Mechanistic Interpretability*  
 (scheduled subset of groups)
 
 ---
 
-## Week 7 — AI → Neuroscience: Alignment
-**Tue 3/3** — Lecture: *AI → Neuroscience / Alignment*  
-(what alignment claims mean, predict neural/behavioral data, evaluation logic, what AI contributes mechanistically beyond "fit")
+## Week 7 — Neural Alignment and Model-to-Brain Mapping
+**Tue 3/3** — Lecture: *Predicting Neural Data*  
+Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify.
 
-**Thu 3/5** — Lightning Mini-Conf 5: *Alignment / AI→Neuro*  
+**Thu 3/5** — Lightning Mini-Conf 5: *Neural Alignment*  
 (scheduled subset of groups)
 
 ---
 
-## Week 8 — Neuroscience → AI: Inspirations
-**Tue 3/10** — Lecture: *Neuroscience → AI*  
-(development & curricula/data diet, robustness ideas incl. V1-style angles, recurrence/RNNs/neural circuits, what biology details matter)
+## Week 8 — Behavioral and Cognitive Alignment
+**Tue 3/10** — Lecture: *Models as Cognitive Participants*  
+Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices.
 
-**Thu 3/12** — Lightning Mini-Conf 6: *Neuro→AI Inspirations*  
+**Thu 3/12** — Lightning Mini-Conf 6: *Behavioral Alignment*  
 (scheduled subset of groups)
 
 ---
 
-## Week 9 — What's Missing + Cognitive Alignment
-**Tue 3/17** — Lecture: *What's missing + Cognitive alignment intro*  
-(cognitive "signatures" beyond accuracy, pitfalls: contamination/prompt sensitivity, how this motivates student projects)
+## Week 9 — Toward Brain-Like AI (Project Launch)
+**Tue 3/17** — Lecture: *Brain-Like Training and Mechanisms*  
+Brain-like training (developmental curricula, data diet, objectives) and brain-like mechanisms (recurrence/feedback, circuit motifs, robustness); translating hypotheses into concrete evaluation plans for student projects.
 
-**Thu 3/19** — Lightning Mini-Conf 7: *Cognitive Alignment Papers*  
+**Thu 3/19** — Lightning Mini-Conf 7: *Brain-Like AI + Project Launch*  
 (scheduled subset of groups)
 
 ---
@@ -138,43 +140,48 @@ Course goals, logistics, how lightning sessions & project posters work.
 
 ---
 
-## Week 11 — Project Studio (In-Class Work Time)
+## Week 11 — Project Studio
 **Tue 3/31** — Project Studio I  
-(planning + pilot runs + figure selection)
+Project launch and evaluation design; in-class time for groups to plan, run pilot tests, and produce first results/figures.
 
 **Thu 4/2** — Project Studio II  
-(complete runs + draft poster)
+Continue project work: complete runs and draft poster.
 
 ---
 
 ## Week 12 — Project Poster Mini-Conference
 **Tue 4/7** — Project Poster Mini-Conf A (17 posters)  
-**Thu 4/9** — Project Poster Mini-Conf B (17 posters)
+Students present project findings in posters; structured peer feedback and synthesis discussion.
+
+**Thu 4/9** — Project Poster Mini-Conf B (17 posters)  
+Students present project findings in posters; structured peer feedback and synthesis discussion.
 
 ---
 
-## Week 13 — Guest Lectures
+## Week 13 — Guest Lecture Series: Current Trends in NeuroAI (I)
 **Tue 4/14** — Guest lecture (TBD)  
+Invited talks connecting course themes to frontier work (e.g., model evaluation/benchmarking, neural/behavioral foundation models, interpretability).
+
 **Thu 4/16** — Guest lecture (TBD)
 
 **Candidate pool:**
-- Schrimpf (Brain-Score)
-- Binz (Centaur)
+- Schrimpf (Brain-Score / benchmarking)
+- Binz (Centaur / cognitive alignment)
 - Tolias lab (mouse V1 foundation model)
-- Turaga (Janelia)
-- Kozachkov (Brown)
-- Tuckute (Kempner)
-- Wang (Kempner)
-- Chung (Kempner)
+- Turaga (Janelia / neural circuits)
+- Kozachkov (Brown / neural dynamics)
+- Tuckute (Kempner / language & brain)
+- Wang (Kempner / neural computation)
+- Chung (Kempner / RNNs & dynamics)
 
 ---
 
-## Week 14 — Guest Lectures
+## Week 14 — Guest Lecture Series: Current Trends in NeuroAI (II)
 **Tue 4/21** — Guest: Rufin VanRullen  
-(global workspace / consciousness & deep learning)
+Invited talk on frontier topics: global workspace / consciousness & deep learning.
 
 **Thu 4/23** — Guest: Victor Boutin  
-(generative models, EBMs, cognitive science)
+Invited talk on frontier topics: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing.
 
 ---
 

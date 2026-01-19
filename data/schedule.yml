@@ -10,7 +10,7 @@ schedule:
   - date: "2026-01-22"
     topic: "Course Kickoff"
     type: "kickoff"
-    description: "Course goals, logistics, lightning sessions & project posters"
+    description: "NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and posters)"
     published: true
     finalized: true
   
@@ -18,7 +18,7 @@ schedule:
   - date: "2026-01-27"
     topic: "Bootcamp I (Async)"
     type: "async"
-    description: "Conditional videos and readings during class time"
+    description: "Deep learning intuition and neuroscience foundations (optional/conditional refreshers to level-set backgrounds)"
     published: true
     finalized: true
     readings:
@@ -37,109 +37,109 @@ schedule:
   
   # Week 3 - PUBLISHED (basic structure)
   - date: "2026-02-03"
-    topic: "Lecture: Learning Objectives Debate"
+    topic: "Lecture: The Three Levers of Deep Learning"
     type: "lecture"
-    description: "Predictive/world-model vs masked reconstruction vs invariance/self-distillation"
+    description: "How architecture, learning objectives, and experience (data/scale) shape representations, behavior, and generalization across modalities"
     published: true
     finalized: true
-    internal_notes: "Prepare slides focusing on figure-first approach. Key papers to cover in lecture..."
+    internal_notes: "Focus on figure-first approach showing concrete examples across modalities"
   
   - date: "2026-02-05"
-    topic: "Lightning Mini-Conf 1: Objectives / SSL"
+    topic: "Lightning Mini-Conf 1: Three Levers of DL"
     type: "lightning"
-    description: "Student lightning talks on learning objectives"
+    description: "Student lightning talks on architecture, objectives, and experience"
     published: true
     finalized: false  # Will show "Details TBD" until paper pool is finalized
-    internal_notes: "Need to finalize paper pool and assign groups by 1/29"
+    internal_notes: "Paper pool should include papers on different architectures, objectives (SSL, supervised), and scaling studies"
   
   # Week 4 - PUBLISHED (basic structure)
   - date: "2026-02-10"
-    topic: "Lecture: Scaling Laws & Emergent Abilities"
+    topic: "Lecture: Scaling and Emerging Capabilities"
     type: "lecture"
-    description: "Scaling laws, emergent abilities, and critiques (figure-first, debate framing)"
+    description: "Pretraining and fine-tuning/transfer; in-context learning and reasoning; what 'emergence' claims mean and how to evaluate them critically"
     published: true
     finalized: true
   
   - date: "2026-02-12"
-    topic: "Lightning Mini-Conf 2: Scaling / Emergence"
+    topic: "Lightning Mini-Conf 2: Scaling & Emergence"
     type: "lightning"
-    description: "Student lightning talks on scaling and emergence"
+    description: "Student lightning talks on scaling laws and emerging capabilities"
     published: true
     finalized: false
-    internal_notes: "Paper pool includes Chinchilla, emergent abilities debate papers"
+    internal_notes: "Papers on scaling laws, ICL, chain-of-thought, emergence critiques (Schaeffer et al.)"
   
   # Week 5 - PUBLISHED (basic structure)
   - date: "2026-02-17"
-    topic: "Lecture: XAI-A (Features, Concepts, SAEs)"
+    topic: "Lecture: Representation-Level Interpretability"
     type: "lecture"
-    description: "Feature visualization, concepts, SAEs/dictionary learning"
+    description: "Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably name in representations"
     published: true
     finalized: true
   
   - date: "2026-02-19"
-    topic: "Lightning Mini-Conf 3: XAI-A"
+    topic: "Lightning Mini-Conf 3: Representation Interpretability"
     type: "lightning"
-    description: "Student lightning talks on XAI features and concepts"
+    description: "Student lightning talks on features, concepts, and sparse methods"
     published: true
     finalized: false
   
   # Week 6 - PUBLISHED (basic structure)
   - date: "2026-02-24"
-    topic: "Lecture: XAI-B (Mechanistic Interpretability)"
+    topic: "Lecture: Mechanistic Interpretability"
     type: "lecture"
-    description: "Mechanistic interpretability: circuits, causal interventions, evidence"
+    description: "Circuits, causal interventions, and standards of evidence for mechanistic claims"
     published: true
     finalized: true
   
   - date: "2026-02-26"
-    topic: "Lightning Mini-Conf 4: XAI-B"
+    topic: "Lightning Mini-Conf 4: Mechanistic Interpretability"
     type: "lightning"
-    description: "Student lightning talks on mechanistic interpretability"
+    description: "Student lightning talks on circuits and causal interventions"
     published: true
     finalized: false
   
   # Week 7 - PUBLISHED (basic structure)
   - date: "2026-03-03"
-    topic: "Lecture: AI → Neuroscience / Alignment"
+    topic: "Lecture: Neural Alignment and Model-to-Brain Mapping"
     type: "lecture"
-    description: "What alignment claims mean, predicting neural/behavioral data"
+    description: "Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify"
     published: true
     finalized: true
   
   - date: "2026-03-05"
-    topic: "Lightning Mini-Conf 5: Alignment / AI→Neuro"
+    topic: "Lightning Mini-Conf 5: Neural Alignment"
     type: "lightning"
-    description: "Student lightning talks on AI-neuroscience alignment"
+    description: "Student lightning talks on model-to-brain mapping"
     published: true
     finalized: false
   
   # Week 8 - PUBLISHED (basic structure)
   - date: "2026-03-10"
-    topic: "Lecture: Neuroscience → AI"
+    topic: "Lecture: Behavioral and Cognitive Alignment"
     type: "lecture"
-    description: "Development, curricula, robustness, recurrence, what biology details matter"
+    description: "Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices"
     published: true
     finalized: true
   
   - date: "2026-03-12"
-    topic: "Lightning Mini-Conf 6: Neuro→AI Inspirations"
+    topic: "Lightning Mini-Conf 6: Behavioral Alignment"
     type: "lightning"
-    description: "Student lightning talks on neuroscience-inspired AI"
+    description: "Student lightning talks on cognitive and behavioral evaluation"
     published: true
     finalized: false
   
-  # Week 9 - PUBLISHED (basic structure)
+  # Week 9 - PUBLISHED (basic structure + Project Launch)
   - date: "2026-03-17"
-    topic: "Lecture: What's Missing + Cognitive Alignment"
+    topic: "Lecture: Toward Brain-Like AI (Project Launch)"
     type: "lecture"
-    description: "Cognitive signatures beyond accuracy, project motivation"
+    description: "Brain-like training (developmental curricula, data diet, objectives) and brain-like mechanisms (recurrence/feedback, circuit motifs, robustness); translating hypotheses into concrete evaluation plans"
     published: true
     finalized: true
   
   - date: "2026-03-19"
-    topic: "Lightning Mini-Conf 7: Cognitive Alignment"
+    topic: "Lightning Mini-Conf 7: Brain-Like AI + Project Launch"
     type: "lightning"
-    description: "Student lightning talks on cognitive alignment papers"
+    description: "Student lightning talks on brain-inspired approaches; project ideas discussion"
     published: true
     finalized: false
   
@@ -162,14 +162,14 @@ schedule:
   - date: "2026-03-31"
     topic: "Project Studio I"
     type: "studio"
-    description: "Planning + pilot runs + figure selection"
+    description: "Project launch and evaluation design; in-class time for groups to plan, run pilot tests, and produce first results/figures"
     published: true
     finalized: true
   
   - date: "2026-04-02"
     topic: "Project Studio II"
     type: "studio"
-    description: "Complete runs + draft poster"
+    description: "Continue project work: complete runs and draft poster"
     published: true
     finalized: true
   
@@ -177,55 +177,55 @@ schedule:
   - date: "2026-04-07"
     topic: "Project Poster Mini-Conf A"
     type: "poster"
-    description: "17 student project posters"
+    description: "Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion"
     published: true
     finalized: true
   
   - date: "2026-04-09"
     topic: "Project Poster Mini-Conf B"
     type: "poster"
-    description: "17 student project posters"
+    description: "Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion"
     published: true
     finalized: true
   
   # Week 13 - Guest Lectures - PUBLISHED (but guests TBD)
   - date: "2026-04-14"
-    topic: "Guest Lecture (TBD)"
+    topic: "Guest Lecture Series I (TBD)"
     type: "guest"
-    description: "Guest speaker TBD"
+    description: "Current trends in NeuroAI: frontier work in model evaluation, benchmarking, neural/behavioral foundation models, or interpretability"
     published: true
     finalized: false  # Will show as "Details TBD" until guest confirmed
     internal_notes: |
       Candidate pool:
-      - Schrimpf (Brain-Score) - PRIORITY
-      - Binz (Centaur)
+      - Schrimpf (Brain-Score / benchmarking) - PRIORITY
+      - Binz (Centaur / cognitive alignment)
       - Tolias lab (mouse V1 foundation model)
-      - Turaga (Janelia)
-      - Kozachkov (Brown) - LOCAL
-      - Tuckute (Kempner)
-      - Wang (Kempner)
-      - Chung (Kempner)
+      - Turaga (Janelia / neural circuits)
+      - Kozachkov (Brown / neural dynamics) - LOCAL
+      - Tuckute (Kempner / language & brain)
+      - Wang (Kempner / neural computation)
+      - Chung (Kempner / RNNs & dynamics)
   
   - date: "2026-04-16"
-    topic: "Guest Lecture (TBD)"
+    topic: "Guest Lecture Series I (TBD)"
     type: "guest"
-    description: "Guest speaker TBD"
+    description: "Current trends in NeuroAI: frontier work connecting course themes"
     published: true
     finalized: false
     internal_notes: "See candidate pool above"
   
   # Week 14 - Guest Lectures - PUBLISHED
   - date: "2026-04-21"
-    topic: "Guest Lecture: Rufin VanRullen"
+    topic: "Guest Lecture Series II: Rufin VanRullen"
     type: "guest"
-    description: "Global workspace / consciousness & deep learning"
+    description: "Frontier topics in NeuroAI: global workspace / consciousness & deep learning"
     published: true
     finalized: true
   
   - date: "2026-04-23"
-    topic: "Guest Lecture: Victor Boutin"
+    topic: "Guest Lecture Series II: Victor Boutin + Course Wrap-Up"
     type: "guest"
-    description: "Generative models, EBMs, cognitive science"
+    description: "Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing"
     published: true
     finalized: true
   

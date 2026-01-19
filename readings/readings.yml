@@ -40,10 +40,10 @@ readings:
         notes: "Conditional: MANDATORY for students requiring neuroscience intro"
         published: true
   
-  # Week 3 - Learning Objectives (DRAFT - Planning phase)
+  # Week 3 - Three Levers of DL (DRAFT - Planning phase)
   - week: 3
-    topic: "Modern Capabilities: Learning Objectives"
-    description: "Debate over learning objectives: predictive/world-model vs masked reconstruction vs invariance/self-distillation"
+    topic: "The Three Levers of Deep Learning"
+    description: "How architecture, learning objectives, and experience (data/scale) shape representations, behavior, and generalization"
     published: false  # Will show as TBD on website until you set to true
     internal_notes: |
       Need to curate 15-20 papers for lightning talks.
@@ -59,8 +59,8 @@ readings:
   
   # Week 4 - Scaling & Emergence (DRAFT)
   - week: 4
-    topic: "Modern Capabilities: Scaling & Emergence"
-    description: "Scaling laws, emergent abilities, and critiques"
+    topic: "Scaling and Emerging Capabilities"
+    description: "Pretraining, fine-tuning, in-context learning, and critical evaluation of emergence claims"
     published: false
     internal_notes: |
       Papers on:
@@ -71,10 +71,10 @@ readings:
     papers:
       # Add curated papers here
   
-  # Week 5 - XAI-A (DRAFT)
+  # Week 5 - Representation Interpretability (DRAFT)
   - week: 5
-    topic: "XAI-A: Features, Concepts, SAEs"
-    description: "Feature visualization, concepts, SAEs/dictionary learning"
+    topic: "Representation-Level Interpretability"
+    description: "Features, concepts, sparse methods; what we can and can't reliably name"
     published: false
     internal_notes: |
       Papers on:
@@ -86,10 +86,10 @@ readings:
     papers:
       # Add curated papers here
   
-  # Week 6 - XAI-B (DRAFT)
+  # Week 6 - Mechanistic Interpretability (DRAFT)
   - week: 6
-    topic: "XAI-B: Mechanistic Interpretability"
-    description: "Mechanistic interpretability: circuits, causal interventions, evidence"
+    topic: "Mechanistic Interpretability"
+    description: "Circuits, causal interventions, standards of evidence for mechanistic claims"
     published: false
     internal_notes: |
       Papers on:
@@ -101,10 +101,10 @@ readings:
     papers:
       # Add curated papers here
   
-  # Week 7 - AI → Neuroscience (DRAFT)
+  # Week 7 - Neural Alignment (DRAFT)
   - week: 7
-    topic: "AI → Neuroscience: Alignment"
-    description: "What alignment claims mean, predicting neural/behavioral data"
+    topic: "Neural Alignment and Model-to-Brain Mapping"
+    description: "Predicting neural data; encoding/decoding; what alignment can and cannot justify"
     published: false
     internal_notes: |
       Papers on:
@@ -116,10 +116,10 @@ readings:
     papers:
       # Add curated papers here
   
-  # Week 8 - Neuroscience → AI (DRAFT)
+  # Week 8 - Behavioral Alignment (DRAFT)
   - week: 8
-    topic: "Neuroscience → AI: Inspirations"
-    description: "Development, curricula, robustness, recurrence, what biology details matter"
+    topic: "Behavioral and Cognitive Alignment"
+    description: "Models as cognitive participants; behavioral signatures beyond accuracy; confounds and best practices"
     published: false
     internal_notes: |
       Papers on:
@@ -131,10 +131,10 @@ readings:
     papers:
       # Add curated papers here
   
-  # Week 9 - Cognitive Alignment (DRAFT)
+  # Week 9 - Brain-Like AI (DRAFT)
   - week: 9
-    topic: "What's Missing + Cognitive Alignment"
-    description: "Cognitive signatures beyond accuracy, project motivation"
+    topic: "Toward Brain-Like AI (Project Launch)"
+    description: "Brain-like training and mechanisms; translating hypotheses into evaluation plans"
     published: false
     internal_notes: |
       Papers on:
