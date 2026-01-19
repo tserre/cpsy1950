@@ -22,16 +22,18 @@ if [ ! -d "$WEBSITE_REPO" ]; then
     exit 1
 fi
 
-# Create data directory if it doesn't exist
-mkdir -p "$WEBSITE_REPO/data"
+# Create _data directory if it doesn't exist (Jekyll convention)
+WEBSITE_DATA_DIR="/Users/tserre/Projects/tserre.github.io/_data/cpsy1950"
+mkdir -p "$WEBSITE_DATA_DIR"
 
 # Copy YAML data files
 echo "Copying data files..."
-cp "$COURSE_REPO/readings/readings.yml" "$WEBSITE_REPO/data/readings.yml"
-cp "$COURSE_REPO/assignments/assignments.yml" "$WEBSITE_REPO/data/assignments.yml"
-cp "$COURSE_REPO/data/schedule.yml" "$WEBSITE_REPO/data/schedule.yml"
-cp "$COURSE_REPO/data/videos.yml" "$WEBSITE_REPO/data/videos.yml"
-cp "$COURSE_REPO/resources/resources.yml" "$WEBSITE_REPO/data/resources.yml"
+cp "$COURSE_REPO/readings/readings.yml" "$WEBSITE_DATA_DIR/readings.yml"
+cp "$COURSE_REPO/assignments/assignments.yml" "$WEBSITE_DATA_DIR/assignments.yml"
+cp "$COURSE_REPO/data/schedule.yml" "$WEBSITE_DATA_DIR/schedule.yml"
+cp "$COURSE_REPO/data/videos.yml" "$WEBSITE_DATA_DIR/videos.yml"
+cp "$COURSE_REPO/resources/resources.yml" "$WEBSITE_DATA_DIR/resources.yml"
+cp "$COURSE_REPO/data/structure.yml" "$WEBSITE_DATA_DIR/structure.yml"
 
 echo "✓ Data files synced successfully!"
 

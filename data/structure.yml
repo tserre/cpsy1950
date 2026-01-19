@@ -1,0 +1,55 @@
+# Course structure with parts and lessons
+# This file defines the sidebar navigation for the website
+# Similar to fast.ai course format
+
+parts:
+  - id: part1
+    title: "Part 1: Foundations"
+    description: "Foundations of NeuroAI and Deep Learning"
+    lessons:
+      - number: 1
+        title: "Introduction to NeuroAI"
+        url: "/cpsy1950/lesson1/"
+        description: "Overview of the intersection between neuroscience and artificial intelligence"
+      - number: 2
+        title: "Visual Processing in Brains and Machines"
+        url: "/cpsy1950/lesson2/"
+        description: "How biological and artificial systems process visual information"
+      - number: 3
+        title: "Learning Mechanisms"
+        url: "/cpsy1950/lesson3/"
+        description: "Comparing learning in biological and artificial systems"
+      # Add more lessons as needed
+  
+  - id: part2
+    title: "Part 2: Advanced Topics"
+    description: "Advanced Topics in NeuroAI"
+    lessons:
+      - number: 4
+        title: "Neural Representations"
+        url: "/cpsy1950/lesson4/"
+        description: "How information is represented in brains and networks"
+      - number: 5
+        title: "Attention Mechanisms"
+        url: "/cpsy1950/lesson5/"
+        description: "Attention in biological and artificial systems"
+      - number: 6
+        title: "Memory Systems"
+        url: "/cpsy1950/lesson6/"
+        description: "Memory and learning in brains and machines"
+      # Add more lessons as needed
+
+# Additional resources shown in sidebar
+resources:
+  - title: "Canvas"
+    url: "https://canvas.brown.edu"
+    external: true
+  - title: "Ed Discussion"
+    url: "https://edstem.org"
+    external: true
+  - title: "Readings"
+    url: "/cpsy1950/readings.html"
+  - title: "Assignments"
+    url: "/cpsy1950/assignments.html"
+  - title: "Schedule"
+    url: "/cpsy1950/schedule.html"

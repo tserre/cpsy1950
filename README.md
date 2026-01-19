@@ -5,6 +5,18 @@
 **Location:** Friedman Hall 108  
 **Time:** TTh 2:30pm-3:50pm
 
+**GitHub:** https://github.com/tserre/cpsy1950  
+**Website:** https://tserre.github.io/cpsy1950/
+
+## Quick Start
+
+See [GETTING_STARTED.md](GETTING_STARTED.md) for a quick guide to managing course materials.
+
+**TL;DR:** To update course materials:
+```bash
+make full-update MSG="your change description"
+```
+
 ## Repository Structure
 
 This repository contains all course materials for CPSY 1950.
