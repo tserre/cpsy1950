@@ -1,0 +1,23 @@
+# CPSY 1950 Assignments
+# List all assignments with due dates and materials
+
+assignments:
+  - title: "Assignment 1: Paper Presentation"
+    due_date: "2026-02-15"
+    description: "Select and present a recent paper in NeuroAI. Your presentation should cover the main contributions, methods, and implications for understanding intelligence."
+    materials:
+      - name: "Presentation Guidelines"
+        type: "pdf"
+        url: "/cpsy1950/assignments/presentation-guidelines.pdf"
+      - name: "Paper Selection Form"
+        type: "link"
+        url: "https://forms.example.com/paper-selection"
+  
+  # Add more assignments below:
+  # - title: "Assignment 2: Critical Review"
+  #   due_date: "2026-03-15"
+  #   description: "Write a critical review of a research paper"
+  #   materials:
+  #     - name: "Review Template"
+  #       type: "pdf"
+  #       url: "/cpsy1950/assignments/review-template.pdf"

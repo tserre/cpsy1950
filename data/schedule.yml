@@ -1,0 +1,24 @@
+# CPSY 1950 Course Schedule
+# List all class sessions with dates, topics, and readings
+
+schedule:
+  - date: "2026-01-22"
+    topic: "Introduction to NeuroAI"
+    readings:
+      - title: "Course Overview"
+        url: "/cpsy1950/lectures/week1-intro.pdf"
+  
+  - date: "2026-01-27"
+    topic: "History and Foundations"
+    readings:
+      - title: "Historical Perspectives"
+        url: "/cpsy1950/papers/foundations.pdf"
+  
+  # Add more schedule items below:
+  # - date: "2026-01-29"
+  #   topic: "Visual Processing in the Brain"
+  #   readings:
+  #     - title: "Hubel & Wiesel"
+  #       url: "/cpsy1950/papers/hubel-wiesel.pdf"
+  #     - title: "Modern Visual Neuroscience"
+  #       url: "/cpsy1950/papers/modern-vision.pdf"

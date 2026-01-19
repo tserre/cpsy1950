@@ -1,0 +1,20 @@
+# CPSY 1950 Additional Resources
+# Links to useful resources, tools, datasets, and references
+
+resources:
+  - title: "BrainScore"
+    description: "A platform for evaluating computational models of brain function"
+    url: "https://www.brain-score.org/"
+  
+  - title: "Papers with Code - NeuroAI"
+    description: "Collection of papers and code implementations in NeuroAI"
+    url: "https://paperswithcode.com/"
+  
+  - title: "Deep Learning Book"
+    description: "Comprehensive reference for deep learning by Goodfellow, Bengio, and Courville"
+    url: "https://www.deeplearningbook.org/"
+  
+  # Add more resources below:
+  # - title: "Resource Title"
+  #   description: "Brief description"
+  #   url: "https://example.com"
