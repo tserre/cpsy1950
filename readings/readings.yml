@@ -1,29 +1,87 @@
 # CPSY 1950 Reading Lists
-# Structure readings by week/topic
-# Add new weeks by copying the structure below
+# Organized by week and topic
 
 readings:
-  - week: 1
-    topic: "Introduction to NeuroAI"
-    description: "Overview of the intersection between neuroscience and artificial intelligence."
+  # Week 2 - Bootcamp
+  - week: 2
+    topic: "Bootcamp: Foundations"
+    description: "Core readings on neuroconnectionism and deep learning as scientific models"
     papers:
-      - title: "Example Paper Title"
-        authors: "Author 1, Author 2"
-        journal: "Journal Name"
-        year: 2024
-        pdf: "/cpsy1950/papers/example-paper.pdf"
-        url: "https://example.com/paper"
-        notes: "Focus on sections 1-3"
+      - title: "The neuroconnectionist research programme"
+        authors: "Doerig, A., Sommers, R. P., Seeliger, K., et al."
+        journal: "Nature Reviews Neuroscience"
+        year: 2023
+        url: "https://www.nature.com/articles/s41583-023-00705-w"
+        pdf: "https://arxiv.org/pdf/2209.03718"
+        notes: "All students - foundational reading for the course"
+        required: true
+      
+      - title: "Deep Neural Networks as Scientific Models"
+        authors: "Cichy, R. M., & Kaiser, D."
+        journal: "Trends in Cognitive Sciences"
+        year: 2019
+        url: "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
+        notes: "All students - understanding DNNs as models of cognition"
+        required: true
+    
+    supplementary:
+      - title: "Open Neuroscience Initiative - Chapter 2: Anatomy of the Nervous System"
+        url: "https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-2-anatomy-of-the-nervous-system/"
+        notes: "Conditional: MANDATORY for students requiring neuroscience intro"
+      
+      - title: "Open Neuroscience Initiative - Chapter 6: Methods Overview"
+        url: "https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-6/"
+        notes: "Conditional: MANDATORY for students requiring neuroscience intro"
   
-  # Add more weeks below:
-  # - week: 2
-  #   topic: "Visual Processing in Brains and Machines"
-  #   description: "How biological and artificial systems process visual information"
-  #   papers:
-  #     - title: "Paper Title"
-  #       authors: "Authors"
-  #       journal: "Journal"
-  #       year: 2024
-  #       pdf: "/cpsy1950/papers/filename.pdf"
-  #       url: "https://paper-url.com"
-  #       notes: "Optional notes for students"
+  # Week 3 - Learning Objectives
+  - week: 3
+    topic: "Modern Capabilities: Learning Objectives"
+    description: "Debate over learning objectives: predictive/world-model vs masked reconstruction vs invariance/self-distillation"
+    papers:
+      # Add papers for lightning talks here
+      # Students will select from a curated list
+  
+  # Week 4 - Scaling & Emergence
+  - week: 4
+    topic: "Modern Capabilities: Scaling & Emergence"
+    description: "Scaling laws, emergent abilities, and critiques"
+    papers:
+      # Add papers for lightning talks here
+  
+  # Week 5 - XAI-A
+  - week: 5
+    topic: "XAI-A: Features, Concepts, SAEs"
+    description: "Feature visualization, concepts, SAEs/dictionary learning"
+    papers:
+      # Add papers for lightning talks here
+  
+  # Week 6 - XAI-B
+  - week: 6
+    topic: "XAI-B: Mechanistic Interpretability"
+    description: "Mechanistic interpretability: circuits, causal interventions, evidence"
+    papers:
+      # Add papers for lightning talks here
+  
+  # Week 7 - AI → Neuroscience
+  - week: 7
+    topic: "AI → Neuroscience: Alignment"
+    description: "What alignment claims mean, predicting neural/behavioral data"
+    papers:
+      # Add papers for lightning talks here
+  
+  # Week 8 - Neuroscience → AI
+  - week: 8
+    topic: "Neuroscience → AI: Inspirations"
+    description: "Development, curricula, robustness, recurrence, what biology details matter"
+    papers:
+      # Add papers for lightning talks here
+  
+  # Week 9 - Cognitive Alignment
+  - week: 9
+    topic: "What's Missing + Cognitive Alignment"
+    description: "Cognitive signatures beyond accuracy, project motivation"
+    papers:
+      # Add papers for lightning talks here
+
+# Paper pools for lightning talks will be added here
+# Each week will have a curated list of 15-20 papers for groups to choose from

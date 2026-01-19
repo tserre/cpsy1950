@@ -1,12 +1,100 @@
 # CPSY 1950 Videos and Lecture Materials
-# Add links to recorded lectures, tutorials, and supplementary videos
+# Bootcamp videos and supplementary materials
 
 videos:
-  # Example format:
-  # - title: "Introduction to NeuroAI"
-  #   description: "First lecture introducing the field"
-  #   youtube_id: "VIDEO_ID"
-  #   url: "https://youtube.com/watch?v=VIDEO_ID"
-  #   date: "2026-01-22"
+  # Deep Learning Intuition (Bootcamp - Conditional)
+  - title: "3Blue1Brown Ch.1: What is a neural network?"
+    description: "Introduction to neural networks and deep learning (MANDATORY for students without DL background)"
+    url: "https://www.3blue1brown.com/lessons/neural-networks"
+    youtube_id: "aircAruvnKk"
+    category: "bootcamp-dl"
+    week: 2
+    required_for: "Students without deep learning course background"
   
-  # Add videos below as they become available
+  - title: "3Blue1Brown Ch.2: Gradient descent"
+    description: "How neural networks learn (MANDATORY for students without DL background)"
+    url: "https://www.3blue1brown.com/lessons/gradient-descent"
+    youtube_id: "IHZwWFHWa-w"
+    category: "bootcamp-dl"
+    week: 2
+    required_for: "Students without deep learning course background"
+  
+  - title: "3Blue1Brown Ch.3: Backpropagation"
+    description: "Understanding backpropagation intuitively (MANDATORY for students without DL background)"
+    url: "https://www.youtube.com/watch?v=Ilg3gGewQ5U"
+    youtube_id: "Ilg3gGewQ5U"
+    category: "bootcamp-dl"
+    week: 2
+    required_for: "Students without deep learning course background"
+  
+  # Linear Algebra Bootcamp (Conditional)
+  - title: "3Blue1Brown: Vectors, what even are they?"
+    description: "Introduction to vectors (MANDATORY for students without linear algebra background)"
+    url: "https://www.3blue1brown.com/lessons/vectors"
+    youtube_id: "fNk_zzaMoSs"
+    category: "bootcamp-linalg"
+    week: 2
+    required_for: "Students without linear algebra or ML/AI background"
+  
+  - title: "3Blue1Brown: Linear combinations, span, and basis vectors"
+    description: "Understanding vector spaces (MANDATORY for students without linear algebra background)"
+    url: "https://www.3blue1brown.com/lessons/span"
+    youtube_id: "k7RM-ot2NWY"
+    category: "bootcamp-linalg"
+    week: 2
+    required_for: "Students without linear algebra or ML/AI background"
+  
+  - title: "3Blue1Brown: Linear transformations and matrices"
+    description: "Understanding linear transformations (MANDATORY for students without linear algebra background)"
+    url: "https://www.3blue1brown.com/lessons/linear-transformations"
+    youtube_id: "kYB8IZa5AuE"
+    category: "bootcamp-linalg"
+    week: 2
+    required_for: "Students without linear algebra or ML/AI background"
+  
+  - title: "3Blue1Brown: Matrix multiplication as composition"
+    description: "Understanding matrix multiplication (MANDATORY for students without linear algebra background)"
+    url: "https://www.3blue1brown.com/lessons/matrix-multiplication"
+    youtube_id: "XkY2DOUCWMU"
+    category: "bootcamp-linalg"
+    week: 2
+    required_for: "Students without linear algebra or ML/AI background"
+  
+  # Neuroscience Bootcamp (Conditional)
+  - title: "Neuroscience Introduction"
+    description: "Introduction to neuroscience fundamentals (MANDATORY for students without neuroscience background)"
+    url: "https://www.youtube.com/watch?v=nlSL7Qg7-Po"
+    youtube_id: "nlSL7Qg7-Po"
+    category: "bootcamp-neuro"
+    week: 2
+    required_for: "Students without neuroscience/cognitive science background"
+  
+  - title: "Neuromatch Academy W0D0"
+    description: "Neuroscience video series introduction"
+    url: "https://compneuro.neuromatch.io/tutorials/W0D0_NeuroVideoSeries/student/W0D0_Tutorial1.html"
+    category: "bootcamp-neuro"
+    week: 2
+    required_for: "Students without neuroscience/cognitive science background"
+  
+  - title: "Lab Tour: Neural Data Context"
+    description: "Understanding neural data recording and analysis"
+    url: "https://youtube.com/watch?v=HCx-sOp9R7M"
+    youtube_id: "HCx-sOp9R7M"
+    category: "bootcamp-neuro"
+    week: 2
+    required_for: "Students without neuroscience/cognitive science background"
+  
+  # Playlist Links
+  - title: "3Blue1Brown: Neural Networks Playlist"
+    description: "Complete neural networks series"
+    url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
+    category: "bootcamp-dl"
+    week: 2
+    type: "playlist"
+  
+  - title: "3Blue1Brown: Essence of Linear Algebra Playlist"
+    description: "Complete linear algebra series"
+    url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF2Wg3fH"
+    category: "bootcamp-linalg"
+    week: 2
+    type: "playlist"

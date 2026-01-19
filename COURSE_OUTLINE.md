@@ -1,208 +1,203 @@
-# CPSY 1950 Course Outline
+# CPSY 1950 — Course Outline (Spring 2026)
 
-## Weekly Topics and Papers
+## Core Format
 
-### Week 1: Introduction to NeuroAI
-**Theme:** What can brains teach us about building intelligent machines?
+- **T/Th, 80 minutes each**
+- **Tuesday:** Lecture introducing the week's theme (conceptual, figure-first)
+- **Thursday:** Lightning mini-conference on the same theme
+  - ~15 lightning talks (2:00 talk + 0:30 transition)
+  - ~20–30 min synthesis discussion/activity
 
-**Key Questions:**
-- What are the fundamental principles of intelligence?
-- How do biological and artificial systems differ?
-- What can each field learn from the other?
+## Group & Presentation Plan
 
-**Potential Papers:**
-- [ ] Add foundational papers here
-
----
-
-### Week 2: Visual Processing
-**Theme:** How do brains and neural networks process visual information?
-
-**Key Questions:**
-- What are the parallels between visual cortex and CNNs?
-- What are the key differences?
-- What can we learn from ventral and dorsal streams?
-
-**Potential Papers:**
-- [ ] Hubel & Wiesel classics
-- [ ] Modern deep learning vision papers
-- [ ] Comparison studies
+- Lightning talks are prepared in small groups (typically 3, occasionally 4)
+- Groups are not fixed: students form new groups for each lightning week (rotating teams)
+- Posters are reserved for student projects (after spring break)
+- **Equity:** Presentation turns tracked at individual student level so each student presents the same number of times (lightning talks + project poster)
 
 ---
 
-### Week 3: Learning Mechanisms
-**Theme:** How do biological and artificial systems learn?
-
-**Key Questions:**
-- Backpropagation vs biological learning
-- Unsupervised and self-supervised learning
-- Meta-learning and few-shot learning
-
-**Potential Papers:**
-- [ ] Backprop alternatives
-- [ ] Self-supervised learning
-- [ ] Meta-learning papers
+## Week 1 — Course Kickoff
+**Thu 1/22** — Kickoff  
+Course goals, logistics, how lightning sessions & project posters work.
 
 ---
 
-### Week 4: Neural Representations
-**Theme:** How is information represented in brains and networks?
+## Week 2 — Bootcamp (Async)
 
-**Key Questions:**
-- Distributed vs localist representations
-- Emergence of neural codes
-- Comparing representations across systems
+### Tue 1/27 — Bootcamp I (async; completed during normal Tue class time)
 
-**Potential Papers:**
-- [ ] Representational similarity analysis
-- [ ] Neural encoding models
-- [ ] Emergent representations in DNNs
+**Assigned Reading (all students):**
+- Doerig et al. (2023), *The neuroconnectionist research programme*  
+  - Nature Reviews Neuroscience: https://www.nature.com/articles/s41583-023-00705-w  
+  - Open PDF (arXiv): https://arxiv.org/pdf/2209.03718
 
----
+**Lecture-Replacement Videos (conditional requirements):**
 
-### Week 5: Attention Mechanisms
-**Theme:** How do systems select and prioritize information?
+- **Deep learning intuition** (conditional):
+  - Optional for everyone, but **MANDATORY** for students who have not taken a deep learning course
+  - 3Blue1Brown — Neural Networks series (selected chapters)
+    - Ch. 1: What is a neural network? https://www.3blue1brown.com/lessons/neural-networks
+    - Ch. 2: Gradient descent https://www.3blue1brown.com/lessons/gradient-descent
+    - Ch. 3: Backprop, intuitively https://www.youtube.com/watch?v=Ilg3gGewQ5U
 
-**Key Questions:**
-- Visual attention in neuroscience
-- Attention in transformers
-- Connections and differences
+- **Linear algebra bootcamp** (conditional):
+  - Optional for everyone, but **MANDATORY** for students without linear algebra or ML/AI background
+  - 3Blue1Brown "Essence of Linear Algebra" series (selected episodes)
+    - Ep. 1: Vectors, what even are they? https://www.3blue1brown.com/lessons/vectors
+    - Ep. 2: Linear combinations, span, basis vectors https://www.3blue1brown.com/lessons/span
+    - Ep. 3: Linear transformations and matrices https://www.3blue1brown.com/lessons/linear-transformations
+    - Ep. 4: Matrix multiplication as composition https://www.3blue1brown.com/lessons/matrix-multiplication
 
-**Potential Papers:**
-- [ ] Attention mechanisms papers
-- [ ] Visual attention papers
-- [ ] Transformer papers
+- **Neuroscience intro video** (conditional):
+  - Optional for everyone, but **MANDATORY** for students without neuroscience/cognitive science background
+  - Neuroscience intro: https://www.youtube.com/watch?v=nlSL7Qg7-Po
+  - Neuromatch Academy: https://compneuro.neuromatch.io/tutorials/W0D0_NeuroVideoSeries/student/W0D0_Tutorial1.html
+  - Lab tour / neural data context: https://youtube.com/watch?v=HCx-sOp9R7M
 
----
+**Textbook-Style Foundations Reading (conditional, skim):**
+- Optional for everyone, but **MANDATORY** for students requiring neuroscience intro video
+- Open Neuroscience Initiative (Pressbooks)
+  - Chapter 2 (brain organization/anatomy): https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-2-anatomy-of-the-nervous-system/
+  - Chapter 6 (methods overview): https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-6/
 
-### Week 6: Memory Systems
-**Theme:** How do systems store and retrieve information?
+### Thu 1/29 — Bootcamp II (async; completed during normal Thu class time)
 
-**Key Questions:**
-- Types of memory in neuroscience
-- Memory in neural networks
-- Catastrophic forgetting and continual learning
-
-**Potential Papers:**
-- [ ] Hippocampal memory papers
-- [ ] Neural network memory architectures
-- [ ] Continual learning papers
-
----
-
-### Week 7: Cognitive Architectures
-**Theme:** How are complex cognitive abilities organized?
-
-**Key Questions:**
-- Modular vs distributed processing
-- Cognitive control and executive function
-- System 1 vs System 2 thinking
-
-**Potential Papers:**
-- [ ] Cognitive architecture papers
-- [ ] Dual process theory
-- [ ] Neural-symbolic integration
+**Assigned Reading (all students):**
+- Cichy & Kaiser (2019), *Deep Neural Networks as Scientific Models* (Trends in Cognitive Sciences)  
+  https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
 
 ---
 
-### Week 8: Language and Communication
-**Theme:** How do systems process and generate language?
+## Week 3 — Modern Capabilities: Objectives
+**Tue 2/3** — Lecture: *Learning objectives debate*  
+(predictive/world-model vs masked reconstruction vs invariance/self-distillation)
 
-**Key Questions:**
-- Language in the brain
-- Large language models
-- Compositionality and systematicity
-
-**Potential Papers:**
-- [ ] Neuroscience of language
-- [ ] LLM papers
-- [ ] Compositional learning
+**Thu 2/5** — Lightning Mini-Conf 1: *Objectives / SSL*  
+(scheduled subset of groups)
 
 ---
 
-### Week 9: Motor Control and Embodiment
-**Theme:** How do systems interact with the physical world?
+## Week 4 — Modern Capabilities: Scaling & Emergence
+**Tue 2/10** — Lecture: *Scaling laws + "emergent abilities" + critiques*  
+(figure-first, debate framing)
 
-**Key Questions:**
-- Motor control in neuroscience
-- Robotics and embodied AI
-- Sensorimotor integration
-
-**Potential Papers:**
-- [ ] Motor control papers
-- [ ] Embodied cognition
-- [ ] Robotics papers
+**Thu 2/12** — Lightning Mini-Conf 2: *Scaling / Emergence*  
+(scheduled subset of groups)
 
 ---
 
-### Week 10: Developmental Learning
-**Theme:** How do intelligent systems develop over time?
+## Week 5 — XAI-A: Features, Concepts, SAEs
+**Tue 2/17** — Lecture: *XAI-A*  
+(feature visualization, concepts, SAEs/dictionary learning, "what we can name/see")
 
-**Key Questions:**
-- Developmental neuroscience
-- Curriculum learning
-- Innate vs learned abilities
-
-**Potential Papers:**
-- [ ] Developmental papers
-- [ ] Curriculum learning
-- [ ] Core knowledge papers
+**Thu 2/19** — Lightning Mini-Conf 3: *XAI-A*  
+(scheduled subset of groups)
 
 ---
 
-### Week 11: Consciousness and Self-Awareness
-**Theme:** Can machines be conscious?
+## Week 6 — XAI-B: Mechanistic Interpretability
+**Tue 2/24** — Lecture: *XAI-B*  
+(mechanistic interpretability: circuits, causal interventions, what counts as evidence)
 
-**Key Questions:**
-- Theories of consciousness
-- Self-monitoring in AI systems
-- Hard problems and philosophical questions
-
-**Potential Papers:**
-- [ ] Consciousness theories
-- [ ] Self-awareness in AI
-- [ ] Philosophical papers
+**Thu 2/26** — Lightning Mini-Conf 4: *XAI-B*  
+(scheduled subset of groups)
 
 ---
 
-### Week 12: Future Directions
-**Theme:** Where is the field headed?
+## Week 7 — AI → Neuroscience: Alignment
+**Tue 3/3** — Lecture: *AI → Neuroscience / Alignment*  
+(what alignment claims mean, predict neural/behavioral data, evaluation logic, what AI contributes mechanistically beyond "fit")
 
-**Key Questions:**
-- Open problems in NeuroAI
-- Grand challenges
-- Ethical considerations
-
-**Potential Papers:**
-- [ ] Position papers
-- [ ] Research agendas
-- [ ] Ethics papers
+**Thu 3/5** — Lightning Mini-Conf 5: *Alignment / AI→Neuro*  
+(scheduled subset of groups)
 
 ---
 
-## Paper Selection Criteria
+## Week 8 — Neuroscience → AI: Inspirations
+**Tue 3/10** — Lecture: *Neuroscience → AI*  
+(development & curricula/data diet, robustness ideas incl. V1-style angles, recurrence/RNNs/neural circuits, what biology details matter)
 
-When selecting papers for each week:
+**Thu 3/12** — Lightning Mini-Conf 6: *Neuro→AI Inspirations*  
+(scheduled subset of groups)
 
-1. **Recency**: Prefer papers from last 3-5 years (unless classics)
-2. **Impact**: High-quality papers from top venues
-3. **Diversity**: Mix of neuroscience, AI, and integrative papers
-4. **Accessibility**: Papers that are comprehensible to interdisciplinary audience
-5. **Discussion potential**: Papers that raise interesting questions
+---
 
-## Assignment Schedule
+## Week 9 — What's Missing + Cognitive Alignment
+**Tue 3/17** — Lecture: *What's missing + Cognitive alignment intro*  
+(cognitive "signatures" beyond accuracy, pitfalls: contamination/prompt sensitivity, how this motivates student projects)
 
-- **Week 2**: Paper presentation assignments
-- **Week 4**: Project topic proposals due
-- **Week 8**: Mid-semester check-in
-- **Week 12**: Project presentations
-- **Finals Week**: Final project papers due
+**Thu 3/19** — Lightning Mini-Conf 7: *Cognitive Alignment Papers*  
+(scheduled subset of groups)
 
-## Additional Resources by Topic
+---
 
-See `resources/resources.yml` for curated lists of:
-- Datasets
-- Code repositories
-- Tutorial materials
-- Review papers
-- Online courses
+## Week 10 — Spring Break
+**Tue 3/24** — No class  
+**Thu 3/26** — No class
+
+---
+
+## Week 11 — Project Studio (In-Class Work Time)
+**Tue 3/31** — Project Studio I  
+(planning + pilot runs + figure selection)
+
+**Thu 4/2** — Project Studio II  
+(complete runs + draft poster)
+
+---
+
+## Week 12 — Project Poster Mini-Conference
+**Tue 4/7** — Project Poster Mini-Conf A (17 posters)  
+**Thu 4/9** — Project Poster Mini-Conf B (17 posters)
+
+---
+
+## Week 13 — Guest Lectures
+**Tue 4/14** — Guest lecture (TBD)  
+**Thu 4/16** — Guest lecture (TBD)
+
+**Candidate pool:**
+- Schrimpf (Brain-Score)
+- Binz (Centaur)
+- Tolias lab (mouse V1 foundation model)
+- Turaga (Janelia)
+- Kozachkov (Brown)
+- Tuckute (Kempner)
+- Wang (Kempner)
+- Chung (Kempner)
+
+---
+
+## Week 14 — Guest Lectures
+**Tue 4/21** — Guest: Rufin VanRullen  
+(global workspace / consciousness & deep learning)
+
+**Thu 4/23** — Guest: Victor Boutin  
+(generative models, EBMs, cognitive science)
+
+---
+
+## Week 15 — Final Exam
+**Tue 5/12, 9:00am** — Final exam
+
+---
+
+## Course Mechanics Summary
+
+### Lightning Talks (Weeks 3-9)
+- Small groups (3-4 students)
+- 2-minute presentation + 0:30 transition
+- Rotating teams each week
+- ~15 groups per session
+
+### Project Posters (Weeks 11-12)
+- Individual or small group projects
+- Focus on cognitive alignment themes
+- Two poster sessions (17 posters each)
+- Studio time provided in Week 11
+
+### Bootcamp (Week 2)
+- Asynchronous learning
+- Conditional requirements based on background
+- Foundation building for interdisciplinary audience

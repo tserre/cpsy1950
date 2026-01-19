@@ -1,24 +1,165 @@
-# CPSY 1950 Course Schedule
-# List all class sessions with dates, topics, and readings
+# CPSY 1950 Course Schedule - Spring 2026
+# T/Th 2:30pm-3:50pm, Friedman Hall 108
 
 schedule:
+  # Week 1
   - date: "2026-01-22"
-    topic: "Introduction to NeuroAI"
-    readings:
-      - title: "Course Overview"
-        url: "/cpsy1950/lectures/week1-intro.pdf"
+    topic: "Course Kickoff"
+    type: "kickoff"
+    description: "Course goals, logistics, lightning sessions & project posters"
   
+  # Week 2 - Bootcamp (Async)
   - date: "2026-01-27"
-    topic: "History and Foundations"
+    topic: "Bootcamp I (Async)"
+    type: "async"
+    description: "Conditional videos and readings during class time"
     readings:
-      - title: "Historical Perspectives"
-        url: "/cpsy1950/papers/foundations.pdf"
+      - title: "Doerig et al. (2023) - The neuroconnectionist research programme"
+        url: "https://arxiv.org/pdf/2209.03718"
   
-  # Add more schedule items below:
-  # - date: "2026-01-29"
-  #   topic: "Visual Processing in the Brain"
-  #   readings:
-  #     - title: "Hubel & Wiesel"
-  #       url: "/cpsy1950/papers/hubel-wiesel.pdf"
-  #     - title: "Modern Visual Neuroscience"
-  #       url: "/cpsy1950/papers/modern-vision.pdf"
+  - date: "2026-01-29"
+    topic: "Bootcamp II (Async)"
+    type: "async"
+    description: "Deep learning as scientific models"
+    readings:
+      - title: "Cichy & Kaiser (2019) - Deep Neural Networks as Scientific Models"
+        url: "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
+  
+  # Week 3
+  - date: "2026-02-03"
+    topic: "Lecture: Learning Objectives Debate"
+    type: "lecture"
+    description: "Predictive/world-model vs masked reconstruction vs invariance/self-distillation"
+  
+  - date: "2026-02-05"
+    topic: "Lightning Mini-Conf 1: Objectives / SSL"
+    type: "lightning"
+    description: "Student lightning talks on learning objectives"
+  
+  # Week 4
+  - date: "2026-02-10"
+    topic: "Lecture: Scaling Laws & Emergent Abilities"
+    type: "lecture"
+    description: "Scaling laws, emergent abilities, and critiques (figure-first, debate framing)"
+  
+  - date: "2026-02-12"
+    topic: "Lightning Mini-Conf 2: Scaling / Emergence"
+    type: "lightning"
+    description: "Student lightning talks on scaling and emergence"
+  
+  # Week 5
+  - date: "2026-02-17"
+    topic: "Lecture: XAI-A (Features, Concepts, SAEs)"
+    type: "lecture"
+    description: "Feature visualization, concepts, SAEs/dictionary learning"
+  
+  - date: "2026-02-19"
+    topic: "Lightning Mini-Conf 3: XAI-A"
+    type: "lightning"
+    description: "Student lightning talks on XAI features and concepts"
+  
+  # Week 6
+  - date: "2026-02-24"
+    topic: "Lecture: XAI-B (Mechanistic Interpretability)"
+    type: "lecture"
+    description: "Mechanistic interpretability: circuits, causal interventions, evidence"
+  
+  - date: "2026-02-26"
+    topic: "Lightning Mini-Conf 4: XAI-B"
+    type: "lightning"
+    description: "Student lightning talks on mechanistic interpretability"
+  
+  # Week 7
+  - date: "2026-03-03"
+    topic: "Lecture: AI → Neuroscience / Alignment"
+    type: "lecture"
+    description: "What alignment claims mean, predicting neural/behavioral data"
+  
+  - date: "2026-03-05"
+    topic: "Lightning Mini-Conf 5: Alignment / AI→Neuro"
+    type: "lightning"
+    description: "Student lightning talks on AI-neuroscience alignment"
+  
+  # Week 8
+  - date: "2026-03-10"
+    topic: "Lecture: Neuroscience → AI"
+    type: "lecture"
+    description: "Development, curricula, robustness, recurrence, what biology details matter"
+  
+  - date: "2026-03-12"
+    topic: "Lightning Mini-Conf 6: Neuro→AI Inspirations"
+    type: "lightning"
+    description: "Student lightning talks on neuroscience-inspired AI"
+  
+  # Week 9
+  - date: "2026-03-17"
+    topic: "Lecture: What's Missing + Cognitive Alignment"
+    type: "lecture"
+    description: "Cognitive signatures beyond accuracy, project motivation"
+  
+  - date: "2026-03-19"
+    topic: "Lightning Mini-Conf 7: Cognitive Alignment"
+    type: "lightning"
+    description: "Student lightning talks on cognitive alignment papers"
+  
+  # Week 10 - Spring Break
+  - date: "2026-03-24"
+    topic: "Spring Break"
+    type: "break"
+    description: "No class"
+  
+  - date: "2026-03-26"
+    topic: "Spring Break"
+    type: "break"
+    description: "No class"
+  
+  # Week 11 - Project Studio
+  - date: "2026-03-31"
+    topic: "Project Studio I"
+    type: "studio"
+    description: "Planning + pilot runs + figure selection"
+  
+  - date: "2026-04-02"
+    topic: "Project Studio II"
+    type: "studio"
+    description: "Complete runs + draft poster"
+  
+  # Week 12 - Project Posters
+  - date: "2026-04-07"
+    topic: "Project Poster Mini-Conf A"
+    type: "poster"
+    description: "17 student project posters"
+  
+  - date: "2026-04-09"
+    topic: "Project Poster Mini-Conf B"
+    type: "poster"
+    description: "17 student project posters"
+  
+  # Week 13 - Guest Lectures
+  - date: "2026-04-14"
+    topic: "Guest Lecture (TBD)"
+    type: "guest"
+    description: "Guest speaker from candidate pool"
+  
+  - date: "2026-04-16"
+    topic: "Guest Lecture (TBD)"
+    type: "guest"
+    description: "Guest speaker from candidate pool"
+  
+  # Week 14 - Guest Lectures
+  - date: "2026-04-21"
+    topic: "Guest Lecture: Rufin VanRullen"
+    type: "guest"
+    description: "Global workspace / consciousness & deep learning"
+  
+  - date: "2026-04-23"
+    topic: "Guest Lecture: Victor Boutin"
+    type: "guest"
+    description: "Generative models, EBMs, cognitive science"
+  
+  # Week 15 - Final Exam
+  - date: "2026-05-12"
+    topic: "Final Exam"
+    type: "exam"
+    description: "Final exam, 9:00am"
+    time: "9:00am"
