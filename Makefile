@@ -66,8 +66,13 @@ status:
 	@echo "=== Website Repository Status ==="
 	@cd ~/Projects/tserre.github.io && git status
 
-# Preview website locally
+# Preview website locally (sync first, then start server)
 preview:
+	@echo "Syncing and starting preview server..."
+	./scripts/preview.sh
+
+# Start Jekyll server without syncing
+serve:
 	@echo "Starting Jekyll server..."
 	@echo "Website will be available at http://localhost:4000/cpsy1950/"
-	cd ~/Projects/tserre.github.io && bundle exec jekyll serve
+	cd ~/Projects/tserre.github.io && ./start_server.sh
