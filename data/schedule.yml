@@ -1,18 +1,26 @@
-# CPSY 1950 Course Schedule - Spring 2026
+# CPSY 1950 Course Schedule - Spring 2026 - INTERNAL VERSION
 # T/Th 2:30pm-3:50pm, Friedman Hall 108
+#
+# This file contains your planning notes and alternatives.
+# Items with "published: false" or "finalized: false" will show minimal info on website.
+# Set "published: true" and "finalized: true" when ready for students.
 
 schedule:
-  # Week 1
+  # Week 1 - PUBLISHED
   - date: "2026-01-22"
     topic: "Course Kickoff"
     type: "kickoff"
     description: "Course goals, logistics, lightning sessions & project posters"
+    published: true
+    finalized: true
   
-  # Week 2 - Bootcamp (Async)
+  # Week 2 - Bootcamp (Async) - PUBLISHED
   - date: "2026-01-27"
     topic: "Bootcamp I (Async)"
     type: "async"
     description: "Conditional videos and readings during class time"
+    published: true
+    finalized: true
     readings:
       - title: "Doerig et al. (2023) - The neuroconnectionist research programme"
         url: "https://arxiv.org/pdf/2209.03718"
@@ -21,145 +29,217 @@ schedule:
     topic: "Bootcamp II (Async)"
     type: "async"
     description: "Deep learning as scientific models"
+    published: true
+    finalized: true
     readings:
       - title: "Cichy & Kaiser (2019) - Deep Neural Networks as Scientific Models"
         url: "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
   
-  # Week 3
+  # Week 3 - PUBLISHED (basic structure)
   - date: "2026-02-03"
     topic: "Lecture: Learning Objectives Debate"
     type: "lecture"
     description: "Predictive/world-model vs masked reconstruction vs invariance/self-distillation"
+    published: true
+    finalized: true
+    internal_notes: "Prepare slides focusing on figure-first approach. Key papers to cover in lecture..."
   
   - date: "2026-02-05"
     topic: "Lightning Mini-Conf 1: Objectives / SSL"
     type: "lightning"
     description: "Student lightning talks on learning objectives"
+    published: true
+    finalized: false  # Will show "Details TBD" until paper pool is finalized
+    internal_notes: "Need to finalize paper pool and assign groups by 1/29"
   
-  # Week 4
+  # Week 4 - PUBLISHED (basic structure)
   - date: "2026-02-10"
     topic: "Lecture: Scaling Laws & Emergent Abilities"
     type: "lecture"
     description: "Scaling laws, emergent abilities, and critiques (figure-first, debate framing)"
+    published: true
+    finalized: true
   
   - date: "2026-02-12"
     topic: "Lightning Mini-Conf 2: Scaling / Emergence"
     type: "lightning"
     description: "Student lightning talks on scaling and emergence"
+    published: true
+    finalized: false
+    internal_notes: "Paper pool includes Chinchilla, emergent abilities debate papers"
   
-  # Week 5
+  # Week 5 - PUBLISHED (basic structure)
   - date: "2026-02-17"
     topic: "Lecture: XAI-A (Features, Concepts, SAEs)"
     type: "lecture"
     description: "Feature visualization, concepts, SAEs/dictionary learning"
+    published: true
+    finalized: true
   
   - date: "2026-02-19"
     topic: "Lightning Mini-Conf 3: XAI-A"
     type: "lightning"
     description: "Student lightning talks on XAI features and concepts"
+    published: true
+    finalized: false
   
-  # Week 6
+  # Week 6 - PUBLISHED (basic structure)
   - date: "2026-02-24"
     topic: "Lecture: XAI-B (Mechanistic Interpretability)"
     type: "lecture"
     description: "Mechanistic interpretability: circuits, causal interventions, evidence"
+    published: true
+    finalized: true
   
   - date: "2026-02-26"
     topic: "Lightning Mini-Conf 4: XAI-B"
     type: "lightning"
     description: "Student lightning talks on mechanistic interpretability"
+    published: true
+    finalized: false
   
-  # Week 7
+  # Week 7 - PUBLISHED (basic structure)
   - date: "2026-03-03"
     topic: "Lecture: AI → Neuroscience / Alignment"
     type: "lecture"
     description: "What alignment claims mean, predicting neural/behavioral data"
+    published: true
+    finalized: true
   
   - date: "2026-03-05"
     topic: "Lightning Mini-Conf 5: Alignment / AI→Neuro"
     type: "lightning"
     description: "Student lightning talks on AI-neuroscience alignment"
+    published: true
+    finalized: false
   
-  # Week 8
+  # Week 8 - PUBLISHED (basic structure)
   - date: "2026-03-10"
     topic: "Lecture: Neuroscience → AI"
     type: "lecture"
     description: "Development, curricula, robustness, recurrence, what biology details matter"
+    published: true
+    finalized: true
   
   - date: "2026-03-12"
     topic: "Lightning Mini-Conf 6: Neuro→AI Inspirations"
     type: "lightning"
     description: "Student lightning talks on neuroscience-inspired AI"
+    published: true
+    finalized: false
   
-  # Week 9
+  # Week 9 - PUBLISHED (basic structure)
   - date: "2026-03-17"
     topic: "Lecture: What's Missing + Cognitive Alignment"
     type: "lecture"
     description: "Cognitive signatures beyond accuracy, project motivation"
+    published: true
+    finalized: true
   
   - date: "2026-03-19"
     topic: "Lightning Mini-Conf 7: Cognitive Alignment"
     type: "lightning"
     description: "Student lightning talks on cognitive alignment papers"
+    published: true
+    finalized: false
   
-  # Week 10 - Spring Break
+  # Week 10 - Spring Break - PUBLISHED
   - date: "2026-03-24"
     topic: "Spring Break"
     type: "break"
     description: "No class"
+    published: true
+    finalized: true
   
   - date: "2026-03-26"
     topic: "Spring Break"
     type: "break"
     description: "No class"
+    published: true
+    finalized: true
   
-  # Week 11 - Project Studio
+  # Week 11 - Project Studio - PUBLISHED
   - date: "2026-03-31"
     topic: "Project Studio I"
     type: "studio"
     description: "Planning + pilot runs + figure selection"
+    published: true
+    finalized: true
   
   - date: "2026-04-02"
     topic: "Project Studio II"
     type: "studio"
     description: "Complete runs + draft poster"
+    published: true
+    finalized: true
   
-  # Week 12 - Project Posters
+  # Week 12 - Project Posters - PUBLISHED
   - date: "2026-04-07"
     topic: "Project Poster Mini-Conf A"
     type: "poster"
     description: "17 student project posters"
+    published: true
+    finalized: true
   
   - date: "2026-04-09"
     topic: "Project Poster Mini-Conf B"
     type: "poster"
     description: "17 student project posters"
+    published: true
+    finalized: true
   
-  # Week 13 - Guest Lectures
+  # Week 13 - Guest Lectures - PUBLISHED (but guests TBD)
   - date: "2026-04-14"
     topic: "Guest Lecture (TBD)"
     type: "guest"
-    description: "Guest speaker from candidate pool"
+    description: "Guest speaker TBD"
+    published: true
+    finalized: false  # Will show as "Details TBD" until guest confirmed
+    internal_notes: |
+      Candidate pool:
+      - Schrimpf (Brain-Score) - PRIORITY
+      - Binz (Centaur)
+      - Tolias lab (mouse V1 foundation model)
+      - Turaga (Janelia)
+      - Kozachkov (Brown) - LOCAL
+      - Tuckute (Kempner)
+      - Wang (Kempner)
+      - Chung (Kempner)
   
   - date: "2026-04-16"
     topic: "Guest Lecture (TBD)"
     type: "guest"
-    description: "Guest speaker from candidate pool"
+    description: "Guest speaker TBD"
+    published: true
+    finalized: false
+    internal_notes: "See candidate pool above"
   
-  # Week 14 - Guest Lectures
+  # Week 14 - Guest Lectures - PUBLISHED
   - date: "2026-04-21"
     topic: "Guest Lecture: Rufin VanRullen"
     type: "guest"
     description: "Global workspace / consciousness & deep learning"
+    published: true
+    finalized: true
   
   - date: "2026-04-23"
     topic: "Guest Lecture: Victor Boutin"
     type: "guest"
     description: "Generative models, EBMs, cognitive science"
+    published: true
+    finalized: true
   
-  # Week 15 - Final Exam
+  # Week 15 - Final Exam - PUBLISHED
   - date: "2026-05-12"
     topic: "Final Exam"
     type: "exam"
     description: "Final exam, 9:00am"
     time: "9:00am"
+    published: true
+    finalized: true
+
+# WORKFLOW NOTES:
+# - All basic structure is published (students can see the schedule)
+# - Lightning sessions show as "Details TBD" until finalized: true
+# - Guest lecture slots show as TBD until confirmed and finalized: true
+# - Internal notes stay in repo but don't appear on website

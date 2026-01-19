@@ -1,11 +1,14 @@
-# CPSY 1950 Reading Lists
-# Organized by week and topic
+# CPSY 1950 Reading Lists - INTERNAL VERSION
+# This file contains your planning notes, alternatives, and drafts.
+# The sync script will filter this to show only "published: true" items to students.
+# Items without "published" field or with "published: false" will show as TBD on website.
 
 readings:
-  # Week 2 - Bootcamp
+  # Week 2 - Bootcamp (PUBLISHED - Ready for students)
   - week: 2
     topic: "Bootcamp: Foundations"
     description: "Core readings on neuroconnectionism and deep learning as scientific models"
+    published: true  # This will appear on website
     papers:
       - title: "The neuroconnectionist research programme"
         authors: "Doerig, A., Sommers, R. P., Seeliger, K., et al."
@@ -15,6 +18,7 @@ readings:
         pdf: "https://arxiv.org/pdf/2209.03718"
         notes: "All students - foundational reading for the course"
         required: true
+        published: true
       
       - title: "Deep Neural Networks as Scientific Models"
         authors: "Cichy, R. M., & Kaiser, D."
@@ -23,65 +27,127 @@ readings:
         url: "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
         notes: "All students - understanding DNNs as models of cognition"
         required: true
+        published: true
     
     supplementary:
       - title: "Open Neuroscience Initiative - Chapter 2: Anatomy of the Nervous System"
         url: "https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-2-anatomy-of-the-nervous-system/"
         notes: "Conditional: MANDATORY for students requiring neuroscience intro"
+        published: true
       
       - title: "Open Neuroscience Initiative - Chapter 6: Methods Overview"
         url: "https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-6/"
         notes: "Conditional: MANDATORY for students requiring neuroscience intro"
+        published: true
   
-  # Week 3 - Learning Objectives
+  # Week 3 - Learning Objectives (DRAFT - Planning phase)
   - week: 3
     topic: "Modern Capabilities: Learning Objectives"
     description: "Debate over learning objectives: predictive/world-model vs masked reconstruction vs invariance/self-distillation"
+    published: false  # Will show as TBD on website until you set to true
+    internal_notes: |
+      Need to curate 15-20 papers for lightning talks.
+      Topics to cover:
+      - Self-supervised learning methods
+      - Contrastive learning (SimCLR, MoCo, etc.)
+      - Masked autoencoders (MAE, BERT-style)
+      - Predictive coding / world models
+      - JEPA and related ideas
     papers:
-      # Add papers for lightning talks here
-      # Students will select from a curated list
+      # Placeholder - add papers here as you curate them
+      # Set published: true for each paper when ready
   
-  # Week 4 - Scaling & Emergence
+  # Week 4 - Scaling & Emergence (DRAFT)
   - week: 4
     topic: "Modern Capabilities: Scaling & Emergence"
     description: "Scaling laws, emergent abilities, and critiques"
+    published: false
+    internal_notes: |
+      Papers on:
+      - Scaling laws (Kaplan et al., Chinchilla, etc.)
+      - Emergent abilities claims
+      - Critiques of emergence (Schaeffer et al.)
+      - Phase transitions in learning
     papers:
-      # Add papers for lightning talks here
+      # Add curated papers here
   
-  # Week 5 - XAI-A
+  # Week 5 - XAI-A (DRAFT)
   - week: 5
     topic: "XAI-A: Features, Concepts, SAEs"
     description: "Feature visualization, concepts, SAEs/dictionary learning"
+    published: false
+    internal_notes: |
+      Papers on:
+      - Feature visualization methods
+      - Network dissection
+      - Sparse autoencoders (Anthropic's work)
+      - Concept-based explanations
+      - TCAV and related methods
     papers:
-      # Add papers for lightning talks here
+      # Add curated papers here
   
-  # Week 6 - XAI-B
+  # Week 6 - XAI-B (DRAFT)
   - week: 6
     topic: "XAI-B: Mechanistic Interpretability"
     description: "Mechanistic interpretability: circuits, causal interventions, evidence"
+    published: false
+    internal_notes: |
+      Papers on:
+      - Induction heads
+      - Indirect object identification
+      - Causal scrubbing
+      - Circuit discovery methods
+      - What counts as mechanistic understanding
     papers:
-      # Add papers for lightning talks here
+      # Add curated papers here
   
-  # Week 7 - AI → Neuroscience
+  # Week 7 - AI → Neuroscience (DRAFT)
   - week: 7
     topic: "AI → Neuroscience: Alignment"
     description: "What alignment claims mean, predicting neural/behavioral data"
+    published: false
+    internal_notes: |
+      Papers on:
+      - Brain-Score evaluations
+      - Neural predictivity studies
+      - Representational similarity analysis
+      - What does "alignment" really mean?
+      - Limitations of correlational evidence
     papers:
-      # Add papers for lightning talks here
+      # Add curated papers here
   
-  # Week 8 - Neuroscience → AI
+  # Week 8 - Neuroscience → AI (DRAFT)
   - week: 8
     topic: "Neuroscience → AI: Inspirations"
     description: "Development, curricula, robustness, recurrence, what biology details matter"
+    published: false
+    internal_notes: |
+      Papers on:
+      - Bio-inspired architectures
+      - Recurrent processing / feedback
+      - Developmental learning / curriculum
+      - Robustness from neuroscience
+      - What level of biological detail matters?
     papers:
-      # Add papers for lightning talks here
+      # Add curated papers here
   
-  # Week 9 - Cognitive Alignment
+  # Week 9 - Cognitive Alignment (DRAFT)
   - week: 9
     topic: "What's Missing + Cognitive Alignment"
     description: "Cognitive signatures beyond accuracy, project motivation"
+    published: false
+    internal_notes: |
+      Papers on:
+      - Beyond-accuracy behavioral signatures
+      - Contamination and prompt sensitivity issues
+      - Systematic generalization failures
+      - Out-of-distribution behavior
+      - What counts as human-like cognition?
     papers:
-      # Add papers for lightning talks here
+      # Add curated papers here
 
-# Paper pools for lightning talks will be added here
-# Each week will have a curated list of 15-20 papers for groups to choose from
+# WORKFLOW NOTES:
+# 1. As you curate papers, add them to the relevant week
+# 2. Set published: true for papers/weeks that are ready for students
+# 3. Run sync script - only published items will appear on website
+# 4. Everything here stays in the repo for your reference

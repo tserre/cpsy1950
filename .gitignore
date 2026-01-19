@@ -54,3 +54,6 @@ dist/
 # Uncomment if needed:
 # *.pdf
 # *.zip
+
+# Website-ready temporary files
+.website_ready/

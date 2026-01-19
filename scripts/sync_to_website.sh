@@ -22,18 +22,31 @@ if [ ! -d "$WEBSITE_REPO" ]; then
     exit 1
 fi
 
+# Prepare website-ready versions (filters internal notes, drafts, etc.)
+echo "Preparing student-ready versions of materials..."
+python3 "$COURSE_REPO/scripts/prepare_for_website.py"
+
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to prepare website materials"
+    exit 1
+fi
+
 # Create _data directory if it doesn't exist (Jekyll convention)
 WEBSITE_DATA_DIR="/Users/tserre/Projects/tserre.github.io/_data/cpsy1950"
 mkdir -p "$WEBSITE_DATA_DIR"
 
-# Copy YAML data files
-echo "Copying data files..."
-cp "$COURSE_REPO/readings/readings.yml" "$WEBSITE_DATA_DIR/readings.yml"
-cp "$COURSE_REPO/assignments/assignments.yml" "$WEBSITE_DATA_DIR/assignments.yml"
-cp "$COURSE_REPO/data/schedule.yml" "$WEBSITE_DATA_DIR/schedule.yml"
-cp "$COURSE_REPO/data/videos.yml" "$WEBSITE_DATA_DIR/videos.yml"
-cp "$COURSE_REPO/resources/resources.yml" "$WEBSITE_DATA_DIR/resources.yml"
-cp "$COURSE_REPO/data/structure.yml" "$WEBSITE_DATA_DIR/structure.yml"
+# Copy filtered YAML data files from .website_ready/
+echo ""
+echo "Copying filtered data files to website..."
+TEMP_DIR="$COURSE_REPO/.website_ready"
+cp "$TEMP_DIR/readings.yml" "$WEBSITE_DATA_DIR/readings.yml"
+cp "$TEMP_DIR/assignments.yml" "$WEBSITE_DATA_DIR/assignments.yml"
+cp "$TEMP_DIR/schedule.yml" "$WEBSITE_DATA_DIR/schedule.yml"
+
+# Copy unfiltered files (videos, resources, structure) as-is
+cp "$TEMP_DIR/videos.yml" "$WEBSITE_DATA_DIR/videos.yml"
+cp "$TEMP_DIR/resources.yml" "$WEBSITE_DATA_DIR/resources.yml"
+cp "$TEMP_DIR/structure.yml" "$WEBSITE_DATA_DIR/structure.yml"
 
 echo "✓ Data files synced successfully!"
 
