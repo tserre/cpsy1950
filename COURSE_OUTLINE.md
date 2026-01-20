@@ -10,10 +10,11 @@
 
 ## Group & Presentation Plan
 
-- Lightning talks are prepared in small groups (typically 3, occasionally 4)
+- Lightning talks are prepared in small groups of 3 students
 - Groups are not fixed: students form new groups for each lightning week (rotating teams)
+- **Each student presents exactly 3 lightning talks** over the semester (Weeks 3-9)
 - Posters are reserved for student projects (after spring break)
-- **Equity:** Presentation turns tracked at individual student level so each student presents the same number of times (lightning talks + project poster)
+- **Equity:** Presentation turns tracked at individual student level
 
 ---
 

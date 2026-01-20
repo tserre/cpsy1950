@@ -5,14 +5,15 @@
 ## Course Information
 
 **Instructor:** Thomas Serre  
-**Email:** [Your email]  
-**Office:** [Your office]  
-**Office Hours:** [TBD]
+**Email:** thomas_serre@brown.edu  
+**Office:** Carney Innovation Hub, Room 402 @ 164 Angell St  
+**Office Hours:** Wednesdays, 1:00-2:00pm (I also typically stay after class for questions)
 
 **Class Time:** Tuesday & Thursday, 2:30pm - 3:50pm  
 **Location:** Friedman Hall 108
 
-**Course Website:** https://tserre.github.io/cpsy1950/
+**Course Website:** https://thomas-serre.com/cpsy1950/  
+**Communication:** Ed Discussion
 
 ## Course Description
 
