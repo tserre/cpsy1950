@@ -96,7 +96,7 @@ This course uses an innovative **lecture + lightning mini-conference** format:
 ## Course Policies
 
 ### Attendance
-Attendance is essential for lightning mini-conferences and group work. Each student's presentation schedule depends on the class roster.
+Attendance is essential for mini-conferences (lightning talks) and group work. Each student's presentation schedule depends on the class roster.
 
 **Excused absences**: Notify instructor in advance when possible. Alternative arrangements will be made for lightning talk groups affected by absences.
 
