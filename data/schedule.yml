@@ -33,7 +33,7 @@ schedule:
     finalized: true
     readings:
       - title: "Cichy & Kaiser (2019) - Deep Neural Networks as Scientific Models"
-        url: "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
+        url: "https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
   
   # Week 3 - PUBLISHED (basic structure)
   - date: "2026-02-03"
@@ -59,6 +59,7 @@ schedule:
     description: "Pretraining and fine-tuning/transfer; in-context learning and reasoning; what 'emergence' claims mean and how to evaluate them critically"
     published: true
     finalized: true
+    internal_notes: "Good background reading for W4 (also W8): Firestone, 'Performance vs. competence in human–machine comparisons' (PNAS 2020) https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117"
   
   - date: "2026-02-12"
     topic: "Lightning Mini-Conf 2: Scaling & Emergence"
@@ -120,6 +121,7 @@ schedule:
     description: "Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices"
     published: true
     finalized: true
+    internal_notes: "Good background reading for W8 (also W4): Firestone, 'Performance vs. competence in human–machine comparisons' (PNAS 2020) https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117"
   
   - date: "2026-03-12"
     topic: "Lightning Mini-Conf 6: Behavioral Alignment"
