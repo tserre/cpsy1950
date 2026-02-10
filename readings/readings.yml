@@ -14,7 +14,7 @@ readings:
         authors: "Doerig, A., Sommers, R. P., Seeliger, K., et al."
         journal: "Nature Reviews Neuroscience"
         year: 2023
-        url: "https://www.nature.com/articles/s41583-023-00705-w"
+        url: "https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w"
         pdf: "https://arxiv.org/pdf/2209.03718"
         notes: "All students - foundational reading for the course"
         required: true
@@ -24,7 +24,7 @@ readings:
         authors: "Cichy, R. M., & Kaiser, D."
         journal: "Trends in Cognitive Sciences"
         year: 2019
-        url: "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
+        url: "https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
         notes: "All students - understanding DNNs as models of cognition"
         required: true
         published: true
@@ -54,7 +54,15 @@ readings:
       - Predictive coding / world models
       - JEPA and related ideas
     papers:
-      # Placeholder - add papers here as you curate them
+      - title: "Deep Learning: The Good, the Bad, and the Ugly"
+        authors: "Serre, T."
+        journal: "Annual Review of Vision Science"
+        year: 2019
+        url: "https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951"
+        notes: "Comprehensive overview of deep learning developments and critical assessment of progress toward human-level visual intelligence"
+        required: true
+        published: true
+      # Add more papers here as you curate them
       # Set published: true for each paper when ready
   
   # Week 4 - Scaling & Emergence (DRAFT)
@@ -71,8 +79,32 @@ readings:
     papers:
       # Add curated papers here
   
-  # Week 5 - Representation Interpretability (DRAFT)
+  # Week 5 - Prediction vs Understanding (Tue holiday; Thu paper + videos)
   - week: 5
+    topic: "Prediction vs Understanding"
+    description: "Background paper and required videos; no lecture Tue (university holiday)."
+    published: true
+    papers:
+      - title: "From Prediction to Understanding: Will AI Foundation Models Transform Brain Science?"
+        authors: "T. Serre & E. Pavlick"
+        journal: "Neuron"
+        year: 2025
+        url: "https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4"
+        notes: "Background reading for Week 5. Paper response link TBD."
+        required: true
+        published: true
+    supplementary:
+      - title: "Marcus (2024) — Keynote at AGI-24 (Machine Learning Street Talk)"
+        url: "https://www.youtube.com/watch?v=91SK90SahHc"
+        notes: "Required viewing. Watch from ~5:00 to ~35:00 (Marcus's talk starts after a brief introduction)."
+        published: true
+      - title: "LeCun (2024) — Objective-Driven AI: Towards AI Systems That Can Learn, Remember, Reason, and Plan (Ding Shum Lecture, Harvard CMSA)"
+        url: "https://www.youtube.com/watch?v=MiqLoAZFRSE"
+        notes: "Required viewing. Watch the first ~36 minutes. Note: it gets fairly technical in places — if it starts feeling dry, you can stop around the 36-minute mark."
+        published: true
+  
+  # Week 6 - Representation Interpretability (DRAFT)
+  - week: 6
     topic: "Representation-Level Interpretability"
     description: "Features, concepts, sparse methods; what we can and can't reliably name"
     published: false
@@ -86,8 +118,8 @@ readings:
     papers:
       # Add curated papers here
   
-  # Week 6 - Mechanistic Interpretability (DRAFT)
-  - week: 6
+  # Week 7 - Mechanistic Interpretability (DRAFT)
+  - week: 7
     topic: "Mechanistic Interpretability"
     description: "Circuits, causal interventions, standards of evidence for mechanistic claims"
     published: false
@@ -99,10 +131,18 @@ readings:
       - Circuit discovery methods
       - What counts as mechanistic understanding
     papers:
-      # Add curated papers here
+      - title: "Is This Just Fantasy? Language Model Representations Reflect Human Judgments of Event Plausibility"
+        authors: "TBD"  # TODO: Update with author names from OpenReview
+        journal: "International Conference on Learning Representations (ICLR)"
+        year: 2026
+        url: "https://openreview.net/forum?id=Czul60ELOH&noteId=PBIgBC0DAW"
+        pdf: "/cpsy1950/papers/optional/Author2026-IsThisJustFantasy.pdf"
+        notes: "Accepted at ICLR 2026. Uses mechanistic interpretability techniques (modal difference vectors) to understand how LMs categorize sentences by modality and relates to human judgments."
+        published: true
+      # Add more curated papers here
   
-  # Week 7 - Neural Alignment (DRAFT)
-  - week: 7
+  # Week 8 - Neural Alignment (moved from W5)
+  - week: 8
     topic: "Neural Alignment and Model-to-Brain Mapping"
     description: "Predicting neural data; encoding/decoding; what alignment can and cannot justify"
     published: false
@@ -116,8 +156,8 @@ readings:
     papers:
       # Add curated papers here
   
-  # Week 8 - Behavioral Alignment (DRAFT)
-  - week: 8
+  # Week 9 - Behavioral and Cognitive Alignment (moved from W8; Brain-Like AI dropped)
+  - week: 9
     topic: "Behavioral and Cognitive Alignment"
     description: "Models as cognitive participants; behavioral signatures beyond accuracy; confounds and best practices"
     published: false
@@ -128,21 +168,6 @@ readings:
       - Developmental learning / curriculum
       - Robustness from neuroscience
       - What level of biological detail matters?
-    papers:
-      # Add curated papers here
-  
-  # Week 9 - Brain-Like AI (DRAFT)
-  - week: 9
-    topic: "Toward Brain-Like AI (Project Launch)"
-    description: "Brain-like training and mechanisms; translating hypotheses into evaluation plans"
-    published: false
-    internal_notes: |
-      Papers on:
-      - Beyond-accuracy behavioral signatures
-      - Contamination and prompt sensitivity issues
-      - Systematic generalization failures
-      - Out-of-distribution behavior
-      - What counts as human-like cognition?
     papers:
       # Add curated papers here
 

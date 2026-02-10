@@ -59,7 +59,20 @@ schedule:
     description: "Pretraining and fine-tuning/transfer; in-context learning and reasoning; what 'emergence' claims mean and how to evaluate them critically"
     published: true
     finalized: true
-    internal_notes: "Good background reading for W4 (also W8): Firestone, 'Performance vs. competence in human–machine comparisons' (PNAS 2020) https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117"
+    internal_notes: |
+      Good background reading for W4 (also W8): Firestone, 'Performance vs. competence in human–machine comparisons' (PNAS 2020) https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117
+      Cover in lecture: Huh et al. (2024) — "The Platonic Representation Hypothesis" (ICML 2024, Oral).
+
+      W4 End Reflection (8–10 min): Bitter Lesson → testable predictions
+      • Pair up (or solo). Submit 4 short bullets:
+        1. One Sutton-style prediction (AI, 2026–2030) about what will drive gains (compute/data/objectives/architecture).
+        2. One prediction for multimodal models (what scales? what breaks? where does grounding help/hurt?).
+        3. One falsifier: what concrete result would make you revise your prediction?
+        4. One "exception/limit" where inductive bias / structure / priors likely win (small data, causality, safety, neuroscience plausibility, etc.).
+      • Optional framing prompt (1 sentence): "Does W4 evidence support 'scale beats priors,' or does it look like 'scale + the right bias'?"
+      • Quick synthesis (2–3 min): Live poll: Scale-first / Priors-first / Hybrid + 1–2 volunteers share their falsifier.
+      • Low-stakes grading rubric (completion): 4 bullets present, at least one is operationalized (names a measurable outcome or specific comparison).
+      • Nice tie-in to course themes: "What counts as evidence vs claim?" + "performance vs competence?" + "Marr levels: implementation (compute) vs algorithm (objective) vs representation (multimodal)."
   
   - date: "2026-02-12"
     topic: "Lightning Mini-Conf 2: Scaling & Emergence"
@@ -69,79 +82,83 @@ schedule:
     finalized: false
     internal_notes: "Papers on scaling laws, ICL, chain-of-thought, emergence critiques (Schaeffer et al.)"
   
-  # Week 5 - PUBLISHED (basic structure)
+  # Week 5 - Prediction vs Understanding (Tue holiday; Thu reading + videos)
   - date: "2026-02-17"
+    topic: "No lecture — University holiday"
+    type: "break"
+    description: "No class."
+    published: true
+    finalized: true
+  
+  - date: "2026-02-19"
+    topic: "Prediction vs Understanding: Background reading and required viewing"
+    type: "async"
+    description: "Background paper (Serre & Pavlick 2025) and two required videos (Marcus AGI-24; LeCun Harvard CMSA). Paper response link TBD."
+    published: true
+    finalized: true
+  
+  # Week 6 - PUBLISHED (basic structure)
+  - date: "2026-02-24"
     topic: "Lecture: Representation-Level Interpretability"
     type: "lecture"
     description: "Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably name in representations"
     published: true
     finalized: true
   
-  - date: "2026-02-19"
-    topic: "Lightning Mini-Conf 3: Representation Interpretability"
+  - date: "2026-02-26"
+    topic: "Lightning Mini-Conf 4: Representation Interpretability"
     type: "lightning"
     description: "Student lightning talks on features, concepts, and sparse methods"
     published: true
     finalized: false
   
-  # Week 6 - PUBLISHED (basic structure)
-  - date: "2026-02-24"
+  # Week 7 - PUBLISHED (basic structure)
+  - date: "2026-03-03"
     topic: "Lecture: Mechanistic Interpretability"
     type: "lecture"
     description: "Circuits, causal interventions, and standards of evidence for mechanistic claims"
     published: true
     finalized: true
   
-  - date: "2026-02-26"
-    topic: "Lightning Mini-Conf 4: Mechanistic Interpretability"
+  - date: "2026-03-05"
+    topic: "Lightning Mini-Conf 5: Mechanistic Interpretability"
     type: "lightning"
     description: "Student lightning talks on circuits and causal interventions"
     published: true
     finalized: false
   
-  # Week 7 - PUBLISHED (basic structure)
-  - date: "2026-03-03"
+  # Week 8 - Neural Alignment (moved from W5)
+  - date: "2026-03-10"
     topic: "Lecture: Neural Alignment and Model-to-Brain Mapping"
     type: "lecture"
     description: "Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify"
     published: true
     finalized: true
   
-  - date: "2026-03-05"
-    topic: "Lightning Mini-Conf 5: Neural Alignment"
+  - date: "2026-03-12"
+    topic: "Lightning Mini-Conf 6: Neural Alignment"
     type: "lightning"
     description: "Student lightning talks on model-to-brain mapping"
     published: true
     finalized: false
+    internal_notes: |
+      Consider for lightning talks (AI–brain alignment week):
+      1. Chen et al. (2025) — "Language modulates vision in human perception" (Nature Human Behaviour). Most directly relevant: CLIP-style vision–language models explain human ventral visual cortex (VOTC) better than vision-only models (ResNet, MoCo). Lesion data: stroke patients with damaged white matter between VOTC and left angular gyrus show decreased CLIP–brain alignment and increased MoCo–brain alignment. Causal demonstration that language actively shapes visual representations in the human brain, not just in models. Published December 2025.
+      2. Doerig, Kietzmann et al. (2025) — "High-level visual representations in the human brain are aligned with large language models" (Nature Machine Intelligence). LLM embeddings of scene captions predict brain activity to natural scenes; works because LLMs integrate compositional scene information (object relations, spatial layout) that simpler visual features miss. Key insight: language-based representations capture aspects of visual processing that vision-only models don't — suggesting the brain's visual system may encode something closer to a linguistic description than a pixel-level feature map.
   
-  # Week 8 - PUBLISHED (basic structure)
-  - date: "2026-03-10"
+  # Week 9 - Behavioral and Cognitive Alignment (moved from W8; Brain-Like AI dropped)
+  - date: "2026-03-17"
     topic: "Lecture: Behavioral and Cognitive Alignment"
     type: "lecture"
     description: "Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices"
     published: true
     finalized: true
-    internal_notes: "Good background reading for W8 (also W4): Firestone, 'Performance vs. competence in human–machine comparisons' (PNAS 2020) https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117"
-  
-  - date: "2026-03-12"
-    topic: "Lightning Mini-Conf 6: Behavioral Alignment"
-    type: "lightning"
-    description: "Student lightning talks on cognitive and behavioral evaluation"
-    published: true
-    finalized: false
-  
-  # Week 9 - PUBLISHED (basic structure + Project Launch)
-  - date: "2026-03-17"
-    topic: "Lecture: Toward Brain-Like AI (Project Launch)"
-    type: "lecture"
-    description: "Brain-like training (developmental curricula, data diet, objectives) and brain-like mechanisms (recurrence/feedback, circuit motifs, robustness); translating hypotheses into concrete evaluation plans"
-    published: true
-    finalized: true
+    internal_notes: "Good background reading for W9 (also W4): Firestone, 'Performance vs. competence in human–machine comparisons' (PNAS 2020) https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117"
   
   - date: "2026-03-19"
-    topic: "Lightning Mini-Conf 7: Brain-Like AI + Project Launch"
+    topic: "Lightning Mini-Conf 7: Behavioral Alignment"
     type: "lightning"
-    description: "Student lightning talks on brain-inspired approaches; project ideas discussion"
+    description: "Student lightning talks on cognitive and behavioral evaluation"
     published: true
     finalized: false
   

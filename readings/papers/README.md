@@ -10,11 +10,11 @@ papers/
 ├── week02/          # Week 2 papers (bootcamp)
 ├── week03/          # Week 3 papers (SSL/objectives)
 ├── week04/          # Week 4 papers (scaling)
-├── week05/          # Week 5 papers (XAI-A)
-├── week06/          # Week 6 papers (XAI-B)
-├── week07/          # Week 7 papers (AI→Neuro)
-├── week08/          # Week 8 papers (Neuro→AI)
-├── week09/          # Week 9 papers (cognitive alignment)
+├── week05/          # Week 5 papers (Prediction vs understanding)
+├── week06/          # Week 6 papers (Rep. interpretability)
+├── week07/          # Week 7 papers (Mech. interpretability)
+├── week08/          # Week 8 papers (Neural alignment)
+├── week09/          # Week 9 papers (Behavioral/cognitive alignment)
 ├── week10-15/       # Later weeks
 ├── classics/        # Classic/foundational papers
 └── optional/        # Optional reading materials

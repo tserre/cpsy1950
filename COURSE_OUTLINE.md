@@ -22,6 +22,8 @@
 **Thu 1/22** — Kickoff  
 NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and posters).
 
+*Note: No readings or pre-class activities for Week 1—this is the introductory session.*
+
 ---
 
 ## Week 2 — Bootcamp (Async)
@@ -32,7 +34,7 @@ NeuroAI goals, course structure, and how we will simulate scientific conferences
 
 **Assigned Reading (all students):**
 - Doerig et al. (2023), *The neuroconnectionist research programme*  
-  - Nature Reviews Neuroscience: https://www.nature.com/articles/s41583-023-00705-w  
+  - Nature Reviews Neuroscience: https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w  
   - Open PDF (arXiv): https://arxiv.org/pdf/2209.03718
 
 **Lecture-Replacement Videos (conditional requirements):**
@@ -68,7 +70,7 @@ NeuroAI goals, course structure, and how we will simulate scientific conferences
 
 **Assigned Reading (all students):**
 - Cichy & Kaiser (2019), *Deep Neural Networks as Scientific Models* (Trends in Cognitive Sciences)  
-  https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
+  https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8
 
 ---
 
@@ -83,54 +85,52 @@ How architecture, learning objectives, and experience (data/scale) shape represe
 
 ## Week 4 — Scaling and Emerging Capabilities
 **Tue 2/10** — Lecture: *Pretraining, Fine-tuning, and Emergence*  
-Pretraining and fine-tuning/transfer; in-context learning and reasoning; what "emergence" claims mean and how to evaluate them critically.
+Pretraining and fine-tuning/transfer; in-context learning and reasoning; what "emergence" claims mean and how to evaluate them critically.  
+[📑 Slides](https://docs.google.com/presentation/d/1Tl2OR5kqpqh5MJIe1_DsQq20MZSS5G_6gkCzDDPblkc/edit?slide=id.g3c67357f7da_0_38#slide=id.g3c67357f7da_0_38)
 
 **Thu 2/12** — Lightning Mini-Conf 2: *Scaling & Emergence*  
 (scheduled subset of groups)
 
 ---
 
-## Week 5 — Representation-Level Interpretability
-**Tue 2/17** — Lecture: *Features, Concepts, and Sparse Methods*  
+## Week 5 — Prediction vs Understanding
+**Tue 2/17** — No lecture (university holiday)  
+**Thu 2/19** — Background reading and required viewing (no in-person lecture): paper (Serre & Pavlick 2025, *Neuron*) and two required videos (Marcus AGI-24; LeCun Harvard CMSA). Paper response link TBD.
+
+---
+
+## Week 6 — Representation-Level Interpretability
+**Tue 2/24** — Lecture: *Features, Concepts, and Sparse Methods*  
 Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably "name" in representations.
 
-**Thu 2/19** — Lightning Mini-Conf 3: *Representation Interpretability*  
+**Thu 2/26** — Lightning Mini-Conf 4: *Representation Interpretability*  
 (scheduled subset of groups)
 
 ---
 
-## Week 6 — Mechanistic Interpretability
-**Tue 2/24** — Lecture: *Circuits and Causal Interventions*  
+## Week 7 — Mechanistic Interpretability
+**Tue 3/3** — Lecture: *Circuits and Causal Interventions*  
 Circuits, causal interventions, and standards of evidence for mechanistic claims.
 
-**Thu 2/26** — Lightning Mini-Conf 4: *Mechanistic Interpretability*  
+**Thu 3/5** — Lightning Mini-Conf 5: *Mechanistic Interpretability*  
 (scheduled subset of groups)
 
 ---
 
-## Week 7 — Neural Alignment and Model-to-Brain Mapping
-**Tue 3/3** — Lecture: *Predicting Neural Data*  
+## Week 8 — Neural Alignment and Model-to-Brain Mapping
+**Tue 3/10** — Lecture: *Predicting Neural Data*  
 Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify.
 
-**Thu 3/5** — Lightning Mini-Conf 5: *Neural Alignment*  
+**Thu 3/12** — Lightning Mini-Conf 6: *Neural Alignment*  
 (scheduled subset of groups)
 
 ---
 
-## Week 8 — Behavioral and Cognitive Alignment
-**Tue 3/10** — Lecture: *Models as Cognitive Participants*  
+## Week 9 — Behavioral and Cognitive Alignment
+**Tue 3/17** — Lecture: *Models as Cognitive Participants*  
 Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices.
 
-**Thu 3/12** — Lightning Mini-Conf 6: *Behavioral Alignment*  
-(scheduled subset of groups)
-
----
-
-## Week 9 — Toward Brain-Like AI (Project Launch)
-**Tue 3/17** — Lecture: *Brain-Like Training and Mechanisms*  
-Brain-like training (developmental curricula, data diet, objectives) and brain-like mechanisms (recurrence/feedback, circuit motifs, robustness); translating hypotheses into concrete evaluation plans for student projects.
-
-**Thu 3/19** — Lightning Mini-Conf 7: *Brain-Like AI + Project Launch*  
+**Thu 3/19** — Lightning Mini-Conf 7: *Behavioral Alignment*  
 (scheduled subset of groups)
 
 ---

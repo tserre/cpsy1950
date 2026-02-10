@@ -130,18 +130,16 @@ Brown University is committed to full inclusion of all students. If you have a d
 - Week 3: Learning objectives debate (SSL, world models, invariance)
 - Week 4: Scaling laws and emergence
 
-### Phase 3: Explainable AI (Weeks 5-6)
-- Week 5: XAI-A (features, concepts, SAEs)
-- Week 6: XAI-B (mechanistic interpretability)
+### Phase 3: Explainable AI (Weeks 5-7)
+- Week 5: Prediction vs understanding
+- Week 6: XAI-A (features, concepts, SAEs)
+- Week 7: XAI-B (mechanistic interpretability)
 
-### Phase 4: AI ↔ Neuroscience Bridge (Weeks 7-8)
-- Week 7: AI → Neuroscience (alignment, neural prediction)
-- Week 8: Neuroscience → AI (bio-inspired architectures)
+### Phase 4: AI ↔ Neuroscience & Alignment (Weeks 8-9)
+- Week 8: Neural alignment (model-to-brain mapping)
+- Week 9: Behavioral and cognitive alignment
 
-### Phase 5: Cognitive Alignment (Week 9)
-- Week 9: What's missing + cognitive alignment intro
-
-### Phase 6: Projects & Synthesis (Weeks 11-15)
+### Phase 5: Projects & Synthesis (Weeks 11-15)
 - Week 11: Project studio (in-class work time)
 - Week 12: Project poster mini-conferences
 - Weeks 13-14: Guest lectures
