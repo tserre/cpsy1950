@@ -10,57 +10,58 @@ schedule:
   - date: "2026-01-22"
     topic: "Course Kickoff"
     type: "kickoff"
-    description: "NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and posters)"
+    description: "NeuroAI goals, course structure, and how we will simulate scientific conferences (lightning talks and projects)"
     published: true
     finalized: true
-  
-  # Week 2 - Bootcamp (Async) - PUBLISHED
+
+  # Week 2 - Bootcamp (Async) - PUBLISHED - RESTRUCTURED
+  # No in-person class this week. Required core + conditional tracks + checkpoint.
   - date: "2026-01-27"
-    topic: "Bootcamp I (Async)"
+    topic: "Async Bootcamp"
     type: "async"
-    description: "Deep learning intuition and neuroscience foundations (optional/conditional refreshers to level-set backgrounds)"
+    description: "Required core (Marr's Levels + neuroanatomy) + conditional tracks (cognitive neuroscience, linear algebra, deep learning). No in-person class this week."
     published: true
     finalized: true
     readings:
-      - title: "Doerig et al. (2023) - The neuroconnectionist research programme"
-        url: "https://arxiv.org/pdf/2209.03718"
-  
-  - date: "2026-01-29"
-    topic: "Bootcamp II (Async)"
-    type: "async"
-    description: "Deep learning as scientific models"
-    published: true
-    finalized: true
-    readings:
-      - title: "Cichy & Kaiser (2019) - Deep Neural Networks as Scientific Models"
+      - title: "Bootcamp checkpoint: Crick (1989) — The recent excitement about neural networks (Nature)"
+        notes: "Due Sun 2/2, 2:00pm on Canvas"
+      - title: "Optional: Cichy & Kaiser (2019) — Deep Neural Networks as Scientific Models"
         url: "https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
-  
-  # Week 3 - PUBLISHED (basic structure)
+      - title: "Optional: Doerig et al. (2023) — The neuroconnectionist research programme"
+        url: "https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w"
+
+  # Week 3 - PUBLISHED
   - date: "2026-02-03"
-    topic: "Lecture: The Three Levers of Deep Learning"
+    topic: "Lecture: The three levers of deep learning"
     type: "lecture"
-    description: "How architecture, learning objectives, and experience (data/scale) shape representations, behavior, and generalization across modalities"
+    description: "Architecture, learning objectives, and data shape representations, behavior, and generalization across modalities"
     published: true
     finalized: true
-    internal_notes: "Focus on figure-first approach showing concrete examples across modalities"
-  
+    readings:
+      - title: "Serre (2019) — Deep Learning: The Good, the Bad, and the Ugly (Annual Review of Vision Science)"
+        url: "https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951"
+        notes: "Reading response due Tue 2/3, 2:00pm on Canvas"
+
   - date: "2026-02-05"
-    topic: "Lightning Mini-Conf 1: Three Levers of DL"
+    topic: "Lightning talks: Three Levers of DL"
     type: "lightning"
-    description: "Student lightning talks on architecture, objectives, and experience"
+    description: "Student lightning talks on architecture, objectives, and data"
     published: true
-    finalized: false  # Will show "Details TBD" until paper pool is finalized
-    internal_notes: "Paper pool should include papers on different architectures, objectives (SSL, supervised), and scaling studies"
-  
-  # Week 4 - PUBLISHED (basic structure)
+    finalized: true
+    internal_notes: "Reflection due Sun 2/8, 2:00pm on Canvas"
+
+  # Week 4 - PUBLISHED
   - date: "2026-02-10"
-    topic: "Lecture: Scaling and Emerging Capabilities"
+    topic: "Lecture: Scaling and emerging capabilities"
     type: "lecture"
     description: "Pretraining and fine-tuning/transfer; in-context learning and reasoning; what 'emergence' claims mean and how to evaluate them critically"
     published: true
     finalized: true
+    readings:
+      - title: "Firestone (2020) — Performance vs. competence in human–machine comparisons (PNAS)"
+        url: "https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117"
+        notes: "Reading response due Tue 2/10, 2:00pm on Canvas"
     internal_notes: |
-      Good background reading for W4 (also W8): Firestone, 'Performance vs. competence in human–machine comparisons' (PNAS 2020) https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117
       Cover in lecture: Huh et al. (2024) — "The Platonic Representation Hypothesis" (ICML 2024, Oral).
 
       W4 End Reflection (8–10 min): Bitter Lesson → testable predictions
@@ -69,74 +70,80 @@ schedule:
         2. One prediction for multimodal models (what scales? what breaks? where does grounding help/hurt?).
         3. One falsifier: what concrete result would make you revise your prediction?
         4. One "exception/limit" where inductive bias / structure / priors likely win (small data, causality, safety, neuroscience plausibility, etc.).
-      • Optional framing prompt (1 sentence): "Does W4 evidence support 'scale beats priors,' or does it look like 'scale + the right bias'?"
-      • Quick synthesis (2–3 min): Live poll: Scale-first / Priors-first / Hybrid + 1–2 volunteers share their falsifier.
-      • Low-stakes grading rubric (completion): 4 bullets present, at least one is operationalized (names a measurable outcome or specific comparison).
-      • Nice tie-in to course themes: "What counts as evidence vs claim?" + "performance vs competence?" + "Marr levels: implementation (compute) vs algorithm (objective) vs representation (multimodal)."
-  
+
   - date: "2026-02-12"
-    topic: "Lightning Mini-Conf 2: Scaling & Emergence"
+    topic: "Lightning talks: Scaling & Emergence"
     type: "lightning"
     description: "Student lightning talks on scaling laws and emerging capabilities"
     published: true
-    finalized: false
-    internal_notes: "Papers on scaling laws, ICL, chain-of-thought, emergence critiques (Schaeffer et al.)"
-  
-  # Week 5 - Prediction vs Understanding (Tue holiday; Thu reading + videos)
+    finalized: true
+
+  # Week 5 - Prediction vs Understanding (Tue holiday; Thu cancelled - instructor sick)
   - date: "2026-02-17"
     topic: "No lecture — University holiday"
     type: "break"
     description: "No class."
     published: true
     finalized: true
-  
+
   - date: "2026-02-19"
-    topic: "Prediction vs Understanding: Background reading and required viewing"
+    topic: "Background reading and required viewing"
     type: "async"
-    description: "Background paper (Serre & Pavlick 2025) and two required videos (Marcus AGI-24; LeCun Harvard CMSA). Paper response link TBD."
+    description: "Background paper (Serre & Pavlick 2025) and two required videos (Marcus AGI-24; LeCun Harvard CMSA). Note: Class on Feb 19 was cancelled (instructor sick)."
     published: true
     finalized: true
-  
-  # Week 6 - PUBLISHED (basic structure)
+    readings:
+      - title: "Serre & Pavlick (2025) — From Prediction to Understanding (Neuron)"
+        url: "https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4"
+        notes: "Paper response due Thu 2/19, 2:00pm on Canvas"
+      - title: "Marcus (2024) — Keynote at AGI-24 (required viewing, ~5:00–35:00)"
+        url: "https://www.youtube.com/watch?v=91SK90SahHc"
+      - title: "LeCun (2024) — Objective-Driven AI (required viewing, first ~36 min)"
+        url: "https://www.youtube.com/watch?v=MiqLoAZFRSE"
+
+  # Week 6 - PUBLISHED
   - date: "2026-02-24"
-    topic: "Lecture: Representation-Level Interpretability"
+    topic: "Lecture: Representation-level interpretability"
     type: "lecture"
     description: "Feature visualization, concept-based methods, sparse/dictionary approaches (incl. SAEs); what we can and can't reliably name in representations"
     published: true
     finalized: true
-  
+    readings:
+      - title: "Olah et al. (2018) — The Building Blocks of Interpretability (Distill)"
+        notes: "Reading response due Tue 2/24, 2:00pm on Canvas"
+
   - date: "2026-02-26"
-    topic: "Lightning Mini-Conf 4: Representation Interpretability"
+    topic: "Lightning talks: Representation Interpretability"
     type: "lightning"
     description: "Student lightning talks on features, concepts, and sparse methods"
     published: true
     finalized: false
-  
-  # Week 7 - PUBLISHED (basic structure)
+
+  # Week 7 - PUBLISHED
   - date: "2026-03-03"
-    topic: "Lecture: Mechanistic Interpretability"
+    topic: "Lecture: Mechanistic interpretability"
     type: "lecture"
     description: "Circuits, causal interventions, and standards of evidence for mechanistic claims"
     published: true
     finalized: true
-  
+
   - date: "2026-03-05"
-    topic: "Lightning Mini-Conf 5: Mechanistic Interpretability"
+    topic: "Lightning talks: Mechanistic Interpretability"
     type: "lightning"
     description: "Student lightning talks on circuits and causal interventions"
     published: true
     finalized: false
-  
-  # Week 8 - Neural Alignment (moved from W5)
+
+  # Week 8 - Neural Alignment
   - date: "2026-03-10"
-    topic: "Lecture: Neural Alignment and Model-to-Brain Mapping"
+    topic: "Lecture: Neural alignment and model-to-brain mapping"
     type: "lecture"
     description: "Predicting neural data across measurement modalities; encoding/decoding and representational similarity; what alignment can and cannot justify"
     published: true
     finalized: true
-  
+
   - date: "2026-03-12"
-    topic: "Lightning Mini-Conf 6: Neural Alignment"
+    topic: "Lightning talks: Neural Alignment"
     type: "lightning"
     description: "Student lightning talks on model-to-brain mapping"
     published: true
@@ -145,23 +152,23 @@ schedule:
       Consider for lightning talks (AI–brain alignment week):
       1. Chen et al. (2025) — "Language modulates vision in human perception" (Nature Human Behaviour). Most directly relevant: CLIP-style vision–language models explain human ventral visual cortex (VOTC) better than vision-only models (ResNet, MoCo). Lesion data: stroke patients with damaged white matter between VOTC and left angular gyrus show decreased CLIP–brain alignment and increased MoCo–brain alignment. Causal demonstration that language actively shapes visual representations in the human brain, not just in models. Published December 2025.
       2. Doerig, Kietzmann et al. (2025) — "High-level visual representations in the human brain are aligned with large language models" (Nature Machine Intelligence). LLM embeddings of scene captions predict brain activity to natural scenes; works because LLMs integrate compositional scene information (object relations, spatial layout) that simpler visual features miss. Key insight: language-based representations capture aspects of visual processing that vision-only models don't — suggesting the brain's visual system may encode something closer to a linguistic description than a pixel-level feature map.
-  
-  # Week 9 - Behavioral and Cognitive Alignment (moved from W8; Brain-Like AI dropped)
+
+  # Week 9 - Behavioral and Cognitive Alignment
   - date: "2026-03-17"
-    topic: "Lecture: Behavioral and Cognitive Alignment"
+    topic: "Lecture: Behavioral and cognitive alignment"
     type: "lecture"
     description: "Treating models as participants in cognitive tasks; behavioral signatures beyond accuracy (generalization, planning, decision making, cognitive control); confounds and best practices"
     published: true
     finalized: true
-    internal_notes: "Good background reading for W9 (also W4): Firestone, 'Performance vs. competence in human–machine comparisons' (PNAS 2020) https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117"
-  
+    internal_notes: "Also relevant: Firestone (2020) — Performance vs. competence (PNAS) — cross-reference with W4."
+
   - date: "2026-03-19"
-    topic: "Lightning Mini-Conf 7: Behavioral Alignment"
+    topic: "Lightning talks: Behavioral Alignment"
     type: "lightning"
     description: "Student lightning talks on cognitive and behavioral evaluation"
     published: true
     finalized: false
-  
+
   # Week 10 - Spring Break - PUBLISHED
   - date: "2026-03-24"
     topic: "Spring Break"
@@ -169,14 +176,14 @@ schedule:
     description: "No class"
     published: true
     finalized: true
-  
+
   - date: "2026-03-26"
     topic: "Spring Break"
     type: "break"
     description: "No class"
     published: true
     finalized: true
-  
+
   # Week 11 - Project Studio - PUBLISHED
   - date: "2026-03-31"
     topic: "Project Studio I"
@@ -184,14 +191,14 @@ schedule:
     description: "Project launch and evaluation design; in-class time for groups to plan, run pilot tests, and produce first results/figures"
     published: true
     finalized: true
-  
+
   - date: "2026-04-02"
     topic: "Project Studio II"
     type: "studio"
     description: "Continue project work: complete runs and draft poster"
     published: true
     finalized: true
-  
+
   # Week 12 - Project Posters - PUBLISHED
   - date: "2026-04-07"
     topic: "Project Poster Mini-Conf A"
@@ -199,55 +206,53 @@ schedule:
     description: "Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion"
     published: true
     finalized: true
-  
+
   - date: "2026-04-09"
     topic: "Project Poster Mini-Conf B"
     type: "poster"
     description: "Students present project findings in posters (17 posters); structured peer feedback and synthesis discussion"
     published: true
     finalized: true
-  
-  # Week 13 - Guest Lectures - PUBLISHED (but guests TBD)
+
+  # Week 13 - Guest Lectures - CONFIRMED
   - date: "2026-04-14"
-    topic: "Guest Lecture Series I (TBD)"
+    topic: "Guest lecture: Greta Tuckute (Kempner Institute, Harvard)"
     type: "guest"
-    description: "Current trends in NeuroAI: frontier work in model evaluation, benchmarking, neural/behavioral foundation models, or interpretability"
+    description: "Details TBD"
     published: true
-    finalized: false  # Will show as "Details TBD" until guest confirmed
+    finalized: true
     internal_notes: |
-      Candidate pool:
-      - Schrimpf (Brain-Score / benchmarking) - PRIORITY
+      CONFIRMED. Other candidates considered:
+      - Schrimpf (Brain-Score / benchmarking)
       - Binz (Centaur / cognitive alignment)
       - Tolias lab (mouse V1 foundation model)
       - Turaga (Janelia / neural circuits)
       - Kozachkov (Brown / neural dynamics) - LOCAL
-      - Tuckute (Kempner / language & brain)
       - Wang (Kempner / neural computation)
       - Chung (Kempner / RNNs & dynamics)
-  
+
   - date: "2026-04-16"
-    topic: "Guest Lecture Series I (TBD)"
-    type: "guest"
-    description: "Current trends in NeuroAI: frontier work connecting course themes"
-    published: true
-    finalized: false
-    internal_notes: "See candidate pool above"
-  
-  # Week 14 - Guest Lectures - PUBLISHED
-  - date: "2026-04-21"
-    topic: "Guest Lecture Series II: Rufin VanRullen"
+    topic: "Guest lecture: Rufin VanRullen (CNRS, France)"
     type: "guest"
     description: "Frontier topics in NeuroAI: global workspace / consciousness & deep learning"
     published: true
     finalized: true
-  
+
+  # Week 14 - Guest Lectures
+  - date: "2026-04-21"
+    topic: "Guest lecture (TBD)"
+    type: "guest"
+    description: "Details TBD"
+    published: true
+    finalized: false
+
   - date: "2026-04-23"
-    topic: "Guest Lecture Series II: Victor Boutin + Course Wrap-Up"
+    topic: "Guest lecture: Victor Boutin (CNRS, France)"
     type: "guest"
     description: "Frontier topics in NeuroAI: generative models, EBMs, cognitive science. Plus course wrap-up and final exam briefing"
     published: true
     finalized: true
-  
+
   # Week 15 - Final Exam - PUBLISHED
   - date: "2026-05-12"
     topic: "Final Exam"

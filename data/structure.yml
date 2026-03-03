@@ -3,53 +3,89 @@
 # Similar to fast.ai course format
 
 parts:
-  - id: part1
-    title: "Part 1: Foundations"
-    description: "Foundations of NeuroAI and Deep Learning"
+  - id: course-pages
+    title: "Course Information"
+    description: "Main course page sections"
     lessons:
       - number: 1
-        title: "Introduction to NeuroAI"
-        url: "/cpsy1950/lesson1/"
-        description: "Overview of the intersection between neuroscience and artificial intelligence"
+        title: "Course Overview"
+        url: "/cpsy1950/#overview"
+        description: "Course overview and format"
       - number: 2
-        title: "Visual Processing in Brains and Machines"
-        url: "/cpsy1950/lesson2/"
-        description: "How biological and artificial systems process visual information"
+        title: "Schedule"
+        url: "/cpsy1950/#schedule"
+        description: "Weekly schedule with dates and topics"
       - number: 3
-        title: "Learning Mechanisms"
-        url: "/cpsy1950/lesson3/"
-        description: "Comparing learning in biological and artificial systems"
-      # Add more lessons as needed
-  
-  - id: part2
-    title: "Part 2: Advanced Topics"
-    description: "Advanced Topics in NeuroAI"
-    lessons:
+        title: "Readings"
+        url: "/cpsy1950/#reading-lists"
+        description: "Weekly reading lists and papers"
       - number: 4
-        title: "Neural Representations"
-        url: "/cpsy1950/lesson4/"
-        description: "How information is represented in brains and networks"
+        title: "Assignments"
+        url: "/cpsy1950/#assignments"
+        description: "Course assignments and materials"
       - number: 5
-        title: "Attention Mechanisms"
-        url: "/cpsy1950/lesson5/"
-        description: "Attention in biological and artificial systems"
+        title: "Syllabus"
+        url: "/cpsy1950/syllabus"
+        description: "Full course syllabus and policies"
       - number: 6
-        title: "Memory Systems"
-        url: "/cpsy1950/lesson6/"
-        description: "Memory and learning in brains and machines"
-      # Add more lessons as needed
+        title: "Course Outline"
+        url: "/cpsy1950/outline"
+        description: "Detailed course outline"
+  - id: weekly-schedule
+    title: "Weekly Schedule"
+    description: "Jump to specific weeks"
+    lessons:
+      - number: 1
+        title: "W1 - Course kickoff"
+        url: "/cpsy1950/#week1"
+      - number: 2
+        title: "W2 - Foundations"
+        url: "/cpsy1950/#week2"
+      - number: 3
+        title: "W3 - Three levers of DL"
+        url: "/cpsy1950/#week3"
+      - number: 4
+        title: "W4 - Scaling & emergence"
+        url: "/cpsy1950/#week4"
+      - number: 5
+        title: "W5 - Prediction vs Understanding"
+        url: "/cpsy1950/#week5"
+      - number: 6
+        title: "W6 - Rep. interpretability"
+        url: "/cpsy1950/#week6"
+      - number: 7
+        title: "W7 - Mech. interpretability"
+        url: "/cpsy1950/#week7"
+      - number: 8
+        title: "W8 - Neural alignment"
+        url: "/cpsy1950/#week8"
+      - number: 9
+        title: "W9 - Behavioral alignment"
+        url: "/cpsy1950/#week9"
+      - number: 10
+        title: "W10 - Spring Break"
+        url: "/cpsy1950/#week10"
+      - number: 11
+        title: "W11 - Project studio"
+        url: "/cpsy1950/#week11"
+      - number: 12
+        title: "W12 - Project posters"
+        url: "/cpsy1950/#week12"
+      - number: 13
+        title: "W13 - Guest lectures"
+        url: "/cpsy1950/#week13"
+      - number: 14
+        title: "W14 - Guest lectures"
+        url: "/cpsy1950/#week14"
+      - number: 15
+        title: "W15 - Final exam"
+        url: "/cpsy1950/#week15"
 
 # Additional resources shown in sidebar
 resources:
+  - title: "Ed Discussion"
+    url: "https://edstem.org/us/courses/93110/discussion"
+    external: true
   - title: "Canvas"
     url: "https://canvas.brown.edu"
     external: true
-  - title: "Ed Discussion"
-    url: "https://edstem.org"
-    external: true
-  - title: "Readings"
-    url: "/cpsy1950/readings.html"
-  - title: "Assignments"
-    url: "/cpsy1950/assignments.html"
-  - title: "Schedule"
-    url: "/cpsy1950/schedule.html"

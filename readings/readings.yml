@@ -4,47 +4,96 @@
 # Items without "published" field or with "published: false" will show as TBD on website.
 
 readings:
-  # Week 2 - Bootcamp (PUBLISHED - Ready for students)
+  # Week 2 - Bootcamp (PUBLISHED - Restructured for Spring 2026)
   - week: 2
-    topic: "Bootcamp: Foundations"
-    description: "Core readings on neuroconnectionism and deep learning as scientific models"
-    published: true  # This will appear on website
-    papers:
+    topic: "Foundations of Natural and Artificial Intelligence"
+    description: "Async bootcamp: Required core + conditional tracks + checkpoint reading"
+    published: true
+
+    required_core:
+      - title: "Marr's Levels of Analysis (video)"
+        authors: "Nancy Kanwisher"
+        type: video
+        notes: "Required for all students. ~90 min total for required core."
+        published: true
+
+      - title: "MIT OCW 9.13 Lecture 2: Neuroanatomy"
+        type: video
+        notes: "Required for all. Focus on gross organization, receptive fields, neural tuning, cortical maps."
+        published: true
+
+    conditional_tracks:
+      - track: "A"
+        title: "Cognitive neuroscience foundations"
+        condition: "Complete if you have not taken at least 1-2 courses in neuroscience or cognitive neuroscience"
+        target_time: "~180 min"
+        items:
+          - "A1) BrainFacts: How neurons communicate"
+          - "A2) NIH/NINDS: Brain basics — know your brain"
+          - "A3) MIT OCW 9.13 Lectures 4 & 5 (Cognitive neuroscience methods I & II)"
+          - "A4) Optional: BrainFacts cheat-sheets on measuring neural physiology"
+        published: true
+
+      - track: "B"
+        title: "Linear algebra intuition (refresher)"
+        condition: "Complete if vectors/matrices feel rusty"
+        target_time: "~60 min"
+        items:
+          - title: "Vectors, what even are they?"
+            url: "https://www.3blue1brown.com/lessons/vectors"
+          - title: "Linear combinations, span, and basis vectors"
+            url: "https://www.3blue1brown.com/lessons/span"
+          - title: "Linear transformations and matrices"
+            url: "https://www.3blue1brown.com/lessons/linear-transformations"
+          - title: "Matrix multiplication as composition"
+            url: "https://www.3blue1brown.com/lessons/matrix-multiplication"
+        published: true
+
+      - track: "C"
+        title: "Deep learning intuition (refresher)"
+        condition: "Complete if backprop/gradient descent are unfamiliar"
+        target_time: "~60 min"
+        items:
+          - title: "What is a neural network?"
+            url: "https://www.3blue1brown.com/lessons/neural-networks"
+          - title: "Gradient descent"
+            url: "https://www.3blue1brown.com/lessons/gradient-descent"
+          - title: "Backpropagation"
+            url: "https://www.youtube.com/watch?v=Ilg3gGewQ5U"
+        published: true
+
+    checkpoint:
+      - title: "The recent excitement about neural networks"
+        authors: "Crick, F."
+        journal: "Nature"
+        year: 1989
+        notes: "Bootcamp checkpoint reading. Response due Sun 2/2, 2:00pm on Canvas."
+        required: true
+        published: true
+
+    optional_background:
+      - title: "Deep Neural Networks as Scientific Models"
+        authors: "Cichy, R. M., & Kaiser, D."
+        journal: "Trends in Cognitive Sciences"
+        year: 2019
+        url: "https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
+        notes: "Optional background paper"
+        published: true
+
       - title: "The neuroconnectionist research programme"
         authors: "Doerig, A., Sommers, R. P., Seeliger, K., et al."
         journal: "Nature Reviews Neuroscience"
         year: 2023
         url: "https://www-nature-com.revproxy.brown.edu/articles/s41583-023-00705-w"
         pdf: "https://arxiv.org/pdf/2209.03718"
-        notes: "All students - foundational reading for the course"
-        required: true
+        notes: "Optional background paper"
         published: true
-      
-      - title: "Deep Neural Networks as Scientific Models"
-        authors: "Cichy, R. M., & Kaiser, D."
-        journal: "Trends in Cognitive Sciences"
-        year: 2019
-        url: "https://www-cell-com.revproxy.brown.edu/trends/cognitive-sciences/fulltext/S1364-6613%2819%2930034-8"
-        notes: "All students - understanding DNNs as models of cognition"
-        required: true
-        published: true
-    
-    supplementary:
-      - title: "Open Neuroscience Initiative - Chapter 2: Anatomy of the Nervous System"
-        url: "https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-2-anatomy-of-the-nervous-system/"
-        notes: "Conditional: MANDATORY for students requiring neuroscience intro"
-        published: true
-      
-      - title: "Open Neuroscience Initiative - Chapter 6: Methods Overview"
-        url: "https://pressbooks.atlanticoer-relatlantique.ca/openneuroscience/chapter/chapter-6/"
-        notes: "Conditional: MANDATORY for students requiring neuroscience intro"
-        published: true
-  
-  # Week 3 - Three Levers of DL (DRAFT - Planning phase)
+
+  # Week 3 - Three Levers of DL (PUBLISHED)
   - week: 3
     topic: "The Three Levers of Deep Learning"
     description: "How architecture, learning objectives, and experience (data/scale) shape representations, behavior, and generalization"
-    published: false  # Will show as TBD on website until you set to true
+    published: true
     internal_notes: |
       Need to curate 15-20 papers for lightning talks.
       Topics to cover:
@@ -59,30 +108,38 @@ readings:
         journal: "Annual Review of Vision Science"
         year: 2019
         url: "https://www.annualreviews.org/content/journals/10.1146/annurev-vision-091718-014951"
-        notes: "Comprehensive overview of deep learning developments and critical assessment of progress toward human-level visual intelligence"
+        notes: "Required reading before Tue 2/3 lecture. Reading response due Tue 2/3, 2:00pm on Canvas."
         required: true
         published: true
-      # Add more papers here as you curate them
-      # Set published: true for each paper when ready
-  
-  # Week 4 - Scaling & Emergence (DRAFT)
+      # Add more papers here as you curate the lightning talk pool
+
+  # Week 4 - Scaling & Emergence (PUBLISHED)
   - week: 4
     topic: "Scaling and Emerging Capabilities"
     description: "Pretraining, fine-tuning, in-context learning, and critical evaluation of emergence claims"
-    published: false
+    published: true
     internal_notes: |
       Papers on:
       - Scaling laws (Kaplan et al., Chinchilla, etc.)
       - Emergent abilities claims
       - Critiques of emergence (Schaeffer et al.)
       - Phase transitions in learning
+      Also relevant: Huh et al. (2024) — "The Platonic Representation Hypothesis" (ICML 2024, Oral) — cover in lecture.
     papers:
-      # Add curated papers here
-  
-  # Week 5 - Prediction vs Understanding (Tue holiday; Thu paper + videos)
+      - title: "Performance vs. competence in human–machine comparisons"
+        authors: "Firestone, C."
+        journal: "PNAS"
+        year: 2020
+        url: "https://www-pnas-org.revproxy.brown.edu/doi/10.1073/pnas.1905334117"
+        notes: "Required reading before Tue 2/10 lecture. Reading response due Tue 2/10, 2:00pm on Canvas."
+        required: true
+        published: true
+      # Add more papers for lightning talk pool
+
+  # Week 5 - Prediction vs Understanding (PUBLISHED)
   - week: 5
     topic: "Prediction vs Understanding"
-    description: "Background paper and required videos; no lecture Tue (university holiday)."
+    description: "Background paper and required videos; no lecture Tue (university holiday). Note: Thu 2/19 class was cancelled (instructor sick)."
     published: true
     papers:
       - title: "From Prediction to Understanding: Will AI Foundation Models Transform Brain Science?"
@@ -90,7 +147,7 @@ readings:
         journal: "Neuron"
         year: 2025
         url: "https://www-cell-com.revproxy.brown.edu/neuron/fulltext/S0896-6273(25)00752-4"
-        notes: "Background reading for Week 5. Paper response link TBD."
+        notes: "Background reading. Paper response due Thu 2/19, 2:00pm on Canvas."
         required: true
         published: true
     supplementary:
@@ -100,24 +157,31 @@ readings:
         published: true
       - title: "LeCun (2024) — Objective-Driven AI: Towards AI Systems That Can Learn, Remember, Reason, and Plan (Ding Shum Lecture, Harvard CMSA)"
         url: "https://www.youtube.com/watch?v=MiqLoAZFRSE"
-        notes: "Required viewing. Watch the first ~36 minutes. Note: it gets fairly technical in places — if it starts feeling dry, you can stop around the 36-minute mark."
+        notes: "Required viewing. Watch the first ~36 minutes."
         published: true
-  
-  # Week 6 - Representation Interpretability (DRAFT)
+
+  # Week 6 - Representation Interpretability (PUBLISHED)
   - week: 6
     topic: "Representation-Level Interpretability"
     description: "Features, concepts, sparse methods; what we can and can't reliably name"
-    published: false
+    published: true
     internal_notes: |
-      Papers on:
+      Papers for lightning talk pool:
       - Feature visualization methods
       - Network dissection
       - Sparse autoencoders (Anthropic's work)
       - Concept-based explanations
       - TCAV and related methods
     papers:
-      # Add curated papers here
-  
+      - title: "The Building Blocks of Interpretability"
+        authors: "Olah, C., Satyanarayan, A., Johnson, I., Carter, S., Schubert, L., Ye, K., & Mordvintsev, A."
+        journal: "Distill"
+        year: 2018
+        notes: "Required reading before Tue 2/24 lecture. Reading response due Tue 2/24, 2:00pm on Canvas."
+        required: true
+        published: true
+      # Add more papers for lightning talk pool
+
   # Week 7 - Mechanistic Interpretability (DRAFT)
   - week: 7
     topic: "Mechanistic Interpretability"
@@ -140,8 +204,8 @@ readings:
         notes: "Accepted at ICLR 2026. Uses mechanistic interpretability techniques (modal difference vectors) to understand how LMs categorize sentences by modality and relates to human judgments."
         published: true
       # Add more curated papers here
-  
-  # Week 8 - Neural Alignment (moved from W5)
+
+  # Week 8 - Neural Alignment
   - week: 8
     topic: "Neural Alignment and Model-to-Brain Mapping"
     description: "Predicting neural data; encoding/decoding; what alignment can and cannot justify"
@@ -153,10 +217,16 @@ readings:
       - Representational similarity analysis
       - What does "alignment" really mean?
       - Limitations of correlational evidence
+      Consider for lightning talks:
+      1. Chen et al. (2025) — "Language modulates vision in human perception" (Nature Human Behaviour).
+         CLIP-style models explain human VOTC better than vision-only models. Lesion data confirms.
+      2. Doerig, Kietzmann et al. (2025) — "High-level visual representations in the human brain are aligned with large language models" (Nature Machine Intelligence).
+         LLM embeddings of scene captions predict brain activity to natural scenes.
+      Also relevant: Firestone (2020) — Performance vs. competence (PNAS) — cross-reference with W4.
     papers:
       # Add curated papers here
-  
-  # Week 9 - Behavioral and Cognitive Alignment (moved from W8; Brain-Like AI dropped)
+
+  # Week 9 - Behavioral and Cognitive Alignment
   - week: 9
     topic: "Behavioral and Cognitive Alignment"
     description: "Models as cognitive participants; behavioral signatures beyond accuracy; confounds and best practices"

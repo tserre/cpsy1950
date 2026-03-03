@@ -1,23 +1,66 @@
 # CPSY 1950 Assignments
-# List all assignments with due dates and materials
+# Weekly work structure: reading responses (Tue 2pm), post-class reflections (Sun 2pm),
+# lightning talk presentations, and project poster.
 
 assignments:
-  - title: "Assignment 1: Paper Presentation"
-    due_date: "2026-02-15"
-    description: "Select and present a recent paper in NeuroAI. Your presentation should cover the main contributions, methods, and implications for understanding intelligence."
-    materials:
-      - name: "Presentation Guidelines"
-        type: "pdf"
-        url: "/cpsy1950/assignments/presentation-guidelines.pdf"
-      - name: "Paper Selection Form"
-        type: "link"
-        url: "https://forms.example.com/paper-selection"
-  
-  # Add more assignments below:
-  # - title: "Assignment 2: Critical Review"
-  #   due_date: "2026-03-15"
-  #   description: "Write a critical review of a research paper"
-  #   materials:
-  #     - name: "Review Template"
-  #       type: "pdf"
-  #       url: "/cpsy1950/assignments/review-template.pdf"
+  # Weekly Reading Responses (due Tuesdays 2:00pm before lecture)
+  - title: "Bootcamp Checkpoint"
+    due_date: "2026-02-02"
+    due_time: "2:00pm"
+    description: "Reading response on Crick (1989) — The recent excitement about neural networks."
+    submit: "Canvas"
+    type: "reading_response"
+
+  - title: "Week 3 Reading Response"
+    due_date: "2026-02-03"
+    due_time: "2:00pm"
+    description: "Reading response on Serre (2019) — Deep Learning: The Good, the Bad, and the Ugly."
+    submit: "Canvas"
+    type: "reading_response"
+
+  - title: "Week 3 Reflection"
+    due_date: "2026-02-08"
+    due_time: "2:00pm"
+    description: "Post-class reflection on Week 3 lightning talks."
+    submit: "Canvas"
+    type: "reflection"
+
+  - title: "Week 4 Reading Response"
+    due_date: "2026-02-10"
+    due_time: "2:00pm"
+    description: "Reading response on Firestone (2020) — Performance vs. competence in human–machine comparisons."
+    submit: "Canvas"
+    type: "reading_response"
+
+  - title: "Week 5 Paper Response"
+    due_date: "2026-02-19"
+    due_time: "2:00pm"
+    description: "Paper response on Serre & Pavlick (2025) — From Prediction to Understanding."
+    submit: "Canvas"
+    type: "reading_response"
+
+  - title: "Week 6 Reading Response"
+    due_date: "2026-02-24"
+    due_time: "2:00pm"
+    description: "Reading response on Olah et al. (2018) — The Building Blocks of Interpretability."
+    submit: "Canvas"
+    type: "reading_response"
+
+  # Lightning Talks (Weeks 3-9, Thursdays)
+  - title: "Lightning Talks (3 presentations per student)"
+    due_date: "ongoing"
+    description: "Each student presents 3 lightning talks across Weeks 3-9. Groups of 3, rotating each week. Slides must be added to shared class deck by Thursday 2:00pm on presentation day."
+    type: "lightning_talk"
+
+  # Project Poster
+  - title: "Project Poster"
+    due_date: "2026-04-07"
+    description: "Research project poster presentation. Two sessions: April 7 and April 9 (17 posters each). Studio time provided in Week 11."
+    type: "poster"
+
+  # Final Exam
+  - title: "Final Exam"
+    due_date: "2026-05-12"
+    due_time: "9:00am"
+    description: "Cumulative final exam."
+    type: "exam"
