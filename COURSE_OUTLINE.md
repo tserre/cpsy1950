@@ -160,6 +160,8 @@ Student lightning talks on features, concepts, and sparse methods.
 **Tue 3/3** — Lecture: *Mechanistic interpretability*
 Circuits, causal interventions, and standards of evidence for mechanistic claims.
 
+[📑 Slides](https://docs.google.com/presentation/d/1ZSG8H-Vck4Gbp4wNiRCiII81ontS_b-9O_kgc7WIfYM/edit?slide=id.p#slide=id.p) · [🎬 Recording](https://drive.google.com/file/d/1FQgMkk7uAsm5A_tilaq2JiIzc-WOeYOA/view)
+
 **Thu 3/5** — Lightning talks
 Student lightning talks on circuits and causal interventions.
 
