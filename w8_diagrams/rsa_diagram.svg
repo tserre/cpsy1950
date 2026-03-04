@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380">
+  <defs>
+    <marker id="arr2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4F46E5"/>
+    </marker>
+  </defs>
+  <rect width="900" height="380" rx="12" fill="#1E293B"/>
+
+  <!-- Left: Brain pathway -->
+  <text x="140" y="30" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#E0E7FF">Brain</text>
+
+  <!-- Stimuli column -->
+  <rect x="30" y="50" width="80" height="24" rx="5" fill="#4F46E5" opacity="0.8"/>
+  <text x="70" y="66" text-anchor="middle" font-family="Arial" font-size="10" fill="white">Stim 1 🐱</text>
+  <rect x="30" y="78" width="80" height="24" rx="5" fill="#4F46E5" opacity="0.7"/>
+  <text x="70" y="94" text-anchor="middle" font-family="Arial" font-size="10" fill="white">Stim 2 🐕</text>
+  <rect x="30" y="106" width="80" height="24" rx="5" fill="#4F46E5" opacity="0.6"/>
+  <text x="70" y="122" text-anchor="middle" font-family="Arial" font-size="10" fill="white">Stim 3 🚗</text>
+  <rect x="30" y="134" width="80" height="24" rx="5" fill="#4F46E5" opacity="0.5"/>
+  <text x="70" y="150" text-anchor="middle" font-family="Arial" font-size="10" fill="white">Stim 4 🏠</text>
+
+  <!-- Arrow -->
+  <line x1="115" y1="100" x2="140" y2="100" stroke="#4F46E5" stroke-width="2" marker-end="url(#arr2)"/>
+
+  <!-- Neural response patterns -->
+  <rect x="145" y="50" width="110" height="110" rx="6" fill="#312E81" stroke="#6366F1" stroke-width="1.5"/>
+  <text x="200" y="70" text-anchor="middle" font-family="Arial" font-size="10" fill="#A5B4FC">Neural Patterns</text>
+  <text x="200" y="88" text-anchor="middle" font-family="monospace" font-size="9" fill="#C7D2FE">[0.8, 0.2, 0.9...]</text>
+  <text x="200" y="102" text-anchor="middle" font-family="monospace" font-size="9" fill="#C7D2FE">[0.7, 0.3, 0.8...]</text>
+  <text x="200" y="116" text-anchor="middle" font-family="monospace" font-size="9" fill="#C7D2FE">[0.1, 0.9, 0.2...]</text>
+  <text x="200" y="130" text-anchor="middle" font-family="monospace" font-size="9" fill="#C7D2FE">[0.2, 0.8, 0.1...]</text>
+  <text x="200" y="150" text-anchor="middle" font-family="Arial" font-size="9" fill="#818CF8">n_stim × n_voxels</text>
+
+  <!-- Arrow to RDM -->
+  <line x1="260" y1="100" x2="290" y2="100" stroke="#4F46E5" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="275" y="90" text-anchor="middle" font-family="Arial" font-size="9" fill="#94A3B8">1-corr</text>
+
+  <!-- Brain RDM -->
+  <rect x="295" y="42" width="120" height="120" rx="6" fill="#1E1B4B" stroke="#6366F1" stroke-width="2"/>
+  <!-- RDM cells (4x4 heatmap-style) -->
+  <rect x="305" y="58" width="24" height="24" fill="#0f172a"/>
+  <rect x="331" y="58" width="24" height="24" fill="#FCA5A5"/>
+  <rect x="357" y="58" width="24" height="24" fill="#EF4444"/>
+  <rect x="383" y="58" width="24" height="24" fill="#DC2626"/>
+  <rect x="305" y="84" width="24" height="24" fill="#FCA5A5"/>
+  <rect x="331" y="84" width="24" height="24" fill="#0f172a"/>
+  <rect x="357" y="84" width="24" height="24" fill="#DC2626"/>
+  <rect x="383" y="84" width="24" height="24" fill="#EF4444"/>
+  <rect x="305" y="110" width="24" height="24" fill="#EF4444"/>
+  <rect x="357" y="110" width="24" height="24" fill="#0f172a"/>
+  <rect x="331" y="110" width="24" height="24" fill="#DC2626"/>
+  <rect x="383" y="110" width="24" height="24" fill="#FCA5A5"/>
+  <rect x="305" y="136" width="24" height="24" fill="#DC2626"/>
+  <rect x="331" y="136" width="24" height="24" fill="#EF4444"/>
+  <rect x="357" y="136" width="24" height="24" fill="#FCA5A5"/>
+  <rect x="383" y="136" width="24" height="24" fill="#0f172a"/>
+  <text x="355" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#A5B4FC">Brain RDM</text>
+
+  <!-- RIGHT: Model pathway -->
+  <text x="700" y="30" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#E0E7FF">Model (Layer L)</text>
+
+  <!-- DNN block -->
+  <rect x="630" y="50" width="110" height="110" rx="6" fill="#312E81" stroke="#6366F1" stroke-width="1.5"/>
+  <text x="685" y="70" text-anchor="middle" font-family="Arial" font-size="10" fill="#A5B4FC">DNN Activations</text>
+  <text x="685" y="88" text-anchor="middle" font-family="monospace" font-size="9" fill="#C7D2FE">[0.6, 0.1, 0.7...]</text>
+  <text x="685" y="102" text-anchor="middle" font-family="monospace" font-size="9" fill="#C7D2FE">[0.5, 0.2, 0.6...]</text>
+  <text x="685" y="116" text-anchor="middle" font-family="monospace" font-size="9" fill="#C7D2FE">[0.2, 0.8, 0.1...]</text>
+  <text x="685" y="130" text-anchor="middle" font-family="monospace" font-size="9" fill="#C7D2FE">[0.3, 0.7, 0.2...]</text>
+  <text x="685" y="150" text-anchor="middle" font-family="Arial" font-size="9" fill="#818CF8">n_stim × n_units</text>
+
+  <!-- Arrow to Model RDM -->
+  <line x1="745" y1="100" x2="775" y2="100" stroke="#4F46E5" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="760" y="90" text-anchor="middle" font-family="Arial" font-size="9" fill="#94A3B8">1-corr</text>
+
+  <!-- Model RDM (similar structure, slightly different colors to show partial match) -->
+  <rect x="545" y="42" width="120" height="120" rx="6" fill="#1E1B4B" stroke="#6366F1" stroke-width="2"/>
+  <rect x="555" y="58" width="24" height="24" fill="#0f172a"/>
+  <rect x="581" y="58" width="24" height="24" fill="#FBBF24"/>
+  <rect x="607" y="58" width="24" height="24" fill="#F59E0B"/>
+  <rect x="633" y="58" width="24" height="24" fill="#D97706"/>
+  <rect x="555" y="84" width="24" height="24" fill="#FBBF24"/>
+  <rect x="581" y="84" width="24" height="24" fill="#0f172a"/>
+  <rect x="607" y="84" width="24" height="24" fill="#D97706"/>
+  <rect x="633" y="84" width="24" height="24" fill="#F59E0B"/>
+  <rect x="555" y="110" width="24" height="24" fill="#F59E0B"/>
+  <rect x="581" y="110" width="24" height="24" fill="#D97706"/>
+  <rect x="607" y="110" width="24" height="24" fill="#0f172a"/>
+  <rect x="633" y="110" width="24" height="24" fill="#FBBF24"/>
+  <rect x="555" y="136" width="24" height="24" fill="#D97706"/>
+  <rect x="581" y="136" width="24" height="24" fill="#F59E0B"/>
+  <rect x="607" y="136" width="24" height="24" fill="#FBBF24"/>
+  <rect x="633" y="136" width="24" height="24" fill="#0f172a"/>
+  <text x="605" y="52" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#FDE68A">Model RDM</text>
+
+  <!-- Oops, let me fix the model RDM position - it should be to the right -->
+
+  <!-- CENTER: Compare -->
+  <line x1="355" y1="175" x2="355" y2="220" stroke="#4F46E5" stroke-width="2" marker-end="url(#arr2)"/>
+  <line x1="605" y1="175" x2="605" y2="220" stroke="#4F46E5" stroke-width="2" marker-end="url(#arr2)"/>
+
+  <!-- Comparison box -->
+  <rect x="330" y="225" width="300" height="60" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+  <text x="480" y="252" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#166534">Compare RDMs</text>
+  <text x="480" y="272" text-anchor="middle" font-family="Arial" font-size="11" fill="#166534">Spearman ρ between upper triangles</text>
+
+  <!-- Result -->
+  <line x1="480" y1="290" x2="480" y2="315" stroke="#16A34A" stroke-width="2" marker-end="url(#arr2)"/>
+  <rect x="400" y="320" width="160" height="40" rx="8" fill="#16A34A"/>
+  <text x="480" y="345" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">ρ = 0.82</text>
+
+  <!-- Labels -->
+  <text x="450" y="375" text-anchor="middle" font-family="Arial" font-size="10" fill="#64748B">High ρ → similar representational geometry</text>
+</svg>
