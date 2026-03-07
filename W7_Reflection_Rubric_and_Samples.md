@@ -83,36 +83,38 @@ Each entry includes the paper's actual authors, a short summary, and a link. Not
 
 ## Rubric (10 points)
 
-**Grading philosophy:** Additive rubric — each sub-component earns points from zero. This is a low-stakes reflection activity, so grade generously. A student who read the blog post, attended the lightning talks, and made a reasonable connection should land around **9/10**.
+**Grading philosophy:** Additive rubric — each sub-component earns points from zero. This is a low-stakes reflection activity, so grade generously. A student who read the blog post, attended the lightning talks, and made a reasonable connection should land around **9–9.5/10**.
 
 ---
 
 ### 1a. Specific finding from the Anthropic blog post (3 pts)
 
-- **+ 3 pts** — Identifies a specific finding (e.g., rhyme planning, multilingual features, hallucination mechanism, multi-step reasoning, jailbreak coherence pressure) and describes it in their own words. Doesn't need to be exhaustive — enough to show they read the post.
-- ✔ **+ 2.5 pts** — Identifies a finding correctly but the description is thin (e.g., "Claude plans ahead when writing poetry" without explaining how researchers confirmed this). Still shows engagement.
-- **+ 1.5 pts** — Mentions something from the blog post but vaguely or inaccurately (e.g., "they traced how the model thinks" without a specific finding).
+- **+ 3 pts** — Identifies a specific finding (e.g., rhyme planning, multilingual features, hallucination mechanism, multi-step reasoning, jailbreak coherence pressure) and describes it accurately in their own words with relevant detail.
+- ✔ **+ 2.75 pts** — Identifies a finding correctly but the description is thin (e.g., "Claude plans ahead when writing poetry" without explaining how researchers confirmed this). Still shows engagement.
+- **+ 2 pts** — Mentions something from the blog post but vaguely or only partially correct (e.g., "they traced how the model thinks" with a vague nod to a specific finding).
+- **+ 0.75 pts** — Very vague reference — unclear which finding they mean or substantially inaccurate.
 - **+ 0 pts** — No reference to the blog post, or completely misrepresents it.
 
 ### 1b. Specific lightning talk paper (2 pts)
 
-- **+ 2 pts** — Identifies a specific lightning talk paper and describes its key idea or method. Remember students saw 5-minute presentations, not full papers — approximate descriptions are fine.
-- ✔ **+ 1.5 pts** — Names a paper but description of its method is thin (e.g., "Wang et al. found circuits in GPT-2"). Still earns most of the credit.
-- **+ 1 pt** — Mentions a paper but inaccurately or very vaguely.
+- ✔ **+ 2 pts** — Names a specific lightning talk paper and captures the key idea. Thin descriptions count — students saw 5-minute presentations, not full papers. (e.g., "Wang et al. found circuits in GPT-2" is sufficient.)
+- **+ 1.25 pts** — Names a paper but description is very thin or slightly off.
+- **+ 0.5 pts** — Mentions a paper but inaccurately or very vaguely.
 - **+ 0 pts** — No reference to any lightning talk paper.
 
 ### 1c. Meaningful comparison (3 pts)
 
-- **+ 3 pts** — Draws a clear comparison that explains *how* the two approaches complement or contrast. Addresses what one can reveal that the other cannot.
-- ✔ **+ 2.5 pts** — Makes a reasonable comparison. May be somewhat general but still shows the student thought about the relationship between the two approaches.
-- **+ 1.5 pts** — Attempts a comparison but it is vague or doesn't go beyond restating what each approach does separately.
+- **+ 3 pts** — Draws a clear bidirectional comparison that explains *how* the two approaches complement or contrast. Addresses what one can reveal that the other cannot.
+- ✔ **+ 2.5 pts** — Makes a reasonable comparison that shows the student thought about the relationship. May be somewhat general but goes beyond restating what each approach does separately.
+- **+ 1.75 pts** — Attempts a comparison but stays surface-level or doesn't go beyond restating what each approach does separately.
+- **+ 0.75 pts** — Gestures at a connection but no real methodological comparison.
 - **+ 0 pts** — No comparison attempted.
 
 ### 1d. Clarity & engagement (2 pts)
 
-- **+ 2 pts** — Writing is clear and demonstrates genuine engagement with the material. Response is roughly within word count.
-- ✔ **+ 1.5 pts** — Writing is clear but rushed, or reads more like a summary than a reflection.
-- **+ 1 pt** — Hard to follow or clearly written without much engagement.
+- ✔ **+ 2 pts** — Writing is clear and readable. Response shows effort and is roughly within word count. This is the default for any response that is readable and on-topic.
+- **+ 1.25 pts** — Writing is understandable but rushed or disorganized.
+- **+ 0.5 pts** — Hard to follow or clearly written with minimal engagement.
 - **+ 0 pts** — Incoherent or clearly didn't engage with the material.
 
 *Total: \_\_ / 10*
@@ -124,10 +126,10 @@ Each entry includes the paper's actual authors, a short summary, and a link. Not
 | Score | What it looks like |
 |-------|-------------------|
 | 10 | Specific finding, specific paper, insightful comparison, clear writing — goes above and beyond |
-| 8–9 | Both sources identified, reasonable comparison, clear writing. **This is the target for a good student.** |
-| 6–7 | Both sources mentioned but comparison is surface-level or one source is vague |
-| 4–5 | Only one source clearly referenced, or comparison is generic |
-| 1–3 | Minimal effort, no meaningful engagement |
+| 9–9.5 | Both sources identified, reasonable comparison, clear writing. **This is the target for a good student.** |
+| 7.5–8.5 | Both sources mentioned but comparison is surface-level or one source is vague |
+| 5–7 | Only one source clearly referenced, or comparison is generic |
+| 1–4 | Minimal effort, no meaningful engagement |
 | 0 | No submission |
 
 ---
@@ -155,7 +157,7 @@ But the approaches reveal different things. Li et al.'s probing shows *what* inf
 
 ---
 
-### Sample B — Score: 9/10
+### Sample B — Score: 9.5/10
 
 The Anthropic blog post describes how Claude plans ahead when writing poetry — instead of generating each word independently, the model "thinks of" rhyming words before composing the line. Researchers showed this by removing the concept "rabbit" from the internal representations, which caused Claude to switch to a different rhyme ("habit"), and by injecting the concept "green," which broke the rhyme entirely. This demonstrates that the model's generation involves genuine multi-step planning, not just next-token prediction.
 
@@ -163,11 +165,11 @@ This finding pairs well with Wang et al.'s (2022) circuit-level analysis of indi
 
 One difference is scope: Wang et al. identified a complete circuit for a single well-defined task, while Anthropic's circuit tracing examines a broader behavior (poetry writing) in a much larger model. Wang et al. can claim they found *the* circuit for indirect object identification; Anthropic's analysis offers a window into the process but can't easily guarantee they've captured the whole mechanism. On the other hand, the Anthropic work shows that similar circuit-level analysis can scale to production models, which Wang et al.'s approach hasn't yet demonstrated.
 
-*[1a: 3 — accurately describes the rhyme-planning finding with causal manipulation details. 1b: 1.5 — names Wang et al. and the correct task but the description of the circuit is thin. 1c: 2.5 — good comparison on scope and completeness. 1d: 2 — clear and well-organized. Total: 9/10.]*
+*[1a: 3 — accurately describes the rhyme-planning finding with causal manipulation details. 1b: 2 — names Wang et al. and the correct task; thin description is sufficient for full credit. 1c: 2.5 — good comparison on scope and completeness. 1d: 2 — clear and well-organized. Total: 9.5/10.]*
 
 ---
 
-### Sample C — Score: 8/10
+### Sample C — Score: 9.25/10
 
 In the Anthropic blog post, researchers found that Claude uses a shared conceptual space across languages. When asked for the opposite of "small" in different languages, the same internal features activated before being translated into each language. This suggests the model has something like a universal language of thought.
 
@@ -175,11 +177,11 @@ This reminds me of Li, Nye & Andreas's (2021) presentation about implicit repres
 
 The main difference is that Anthropic used circuit tracing to find this, while Li, Nye & Andreas used probing classifiers. Circuit tracing shows you how the features connect and interact, while probing just tells you whether the information is there.
 
-*[1a: 2.5 — identifies the multilingual finding correctly, thin on detail but shows engagement. 1b: 1.5 — names Li, Nye & Andreas and captures the gist. 1c: 2 — comparison present and reasonable, though could be more concrete. 1d: 2 — clear writing, shows effort. Total: 8/10.]*
+*[1a: 2.75 — identifies the multilingual finding correctly, thin on detail but shows engagement. 1b: 2 — names Li, Nye & Andreas and captures the gist; sufficient for full credit. 1c: 2.5 — reasonable comparison (circuit tracing shows how features interact vs. probing shows whether info is present); goes beyond restating. 1d: 2 — clear writing, shows effort. Total: 9.25/10.]*
 
 ---
 
-### Sample D — Score: 6.5/10
+### Sample D — Score: 7.75/10
 
 The Anthropic blog post had a lot of interesting findings about how Claude thinks internally. One thing that stood out was the part about hallucinations — apparently Claude has a default refusal mechanism and hallucinations happen when it recognizes a name but doesn't have real knowledge about it.
 
@@ -187,7 +189,7 @@ I think this connects to the interpretability work we saw in the lightning talks
 
 The blog post approach seems more advanced since it's working with a bigger, newer model. The lightning talk papers were interesting but were working with older, smaller models. I think as models get bigger, we'll need more tools like what Anthropic is developing.
 
-*[1a: 2.5 — mentions the hallucination mechanism correctly, brief but accurate. 1b: 1.5 — names Wang et al., thin but shows awareness. 1c: 1 — "more advanced" and "bigger model" isn't a real methodological comparison; doesn't address what each reveals. 1d: 1.5 — rushed but readable. Total: 6.5/10.]*
+*[1a: 2.75 — mentions the hallucination mechanism correctly, brief but accurate. 1b: 2 — names Wang et al., thin but shows awareness; sufficient for full credit. 1c: 1.75 — "both are trying to understand how models work on the inside" is surface-level; "more advanced" / "bigger model" isn't a real methodological comparison. 1d: 1.25 — rushed but readable; lacks depth. Total: 7.75/10.]*
 
 ---
 
@@ -214,10 +216,10 @@ These are natural connections students might draw. Many other pairings are valid
 
 After scoring a response using the detailed rubric, sanity-check the total:
 
-- Specific finding, specific paper, thoughtful comparison → **9–10**
-- Both sources mentioned, reasonable comparison → **8–9**
-- Both sources mentioned but comparison is surface-level → **6–7**
-- Only one source clearly engaged → **4–5**
-- Minimal effort → below **4**
+- Specific finding, specific paper, thoughtful comparison → **9.5–10**
+- Both sources mentioned, reasonable comparison → **9–9.5**
+- Both sources mentioned but comparison is surface-level → **7.5–8.5**
+- Only one source clearly engaged → **5–7**
+- Minimal effort → below **5**
 
 If the rubric score doesn't match the benchmark, re-check the sub-component scores.

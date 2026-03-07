@@ -128,36 +128,38 @@ Each entry includes the paper's actual authors, a short summary, and relevance t
 
 ## Rubric (10 points)
 
-**Grading philosophy:** Additive rubric — each sub-component earns points from zero. This is a low-stakes reflection activity, so grade generously. A student who read Linsley et al., attended the lightning talks, and made a reasonable connection should land around **9/10**.
+**Grading philosophy:** Additive rubric — each sub-component earns points from zero. This is a low-stakes reflection activity, so grade generously. A student who read Linsley et al., attended the lightning talks, and made a reasonable connection should land around **9–9.5/10**.
 
 ---
 
 ### 1a. Specific finding or argument from Linsley et al. (3 pts)
 
-- **+ 3 pts** — Identifies a specific finding (e.g., the inflection point, divergent visual strategies, failure of design factors to explain the decline, harmonization proposal) and describes it in their own words. Doesn't need to be exhaustive — enough to show they read the paper.
-- ✔ **+ 2.5 pts** — Identifies a finding correctly but the description is thin (e.g., "better models on ImageNet don't predict the brain as well" without explaining the inflection point or why). Still shows engagement.
-- **+ 1.5 pts** — Mentions something from Linsley et al. but vaguely or inaccurately (e.g., "they say DNNs aren't good models" without a specific finding).
+- **+ 3 pts** — Identifies a specific finding (e.g., the inflection point, divergent visual strategies, failure of design factors to explain the decline, harmonization proposal) and describes it clearly in their own words.
+- ✔ **+ 2.75 pts** — Identifies a finding correctly but the description is thin (e.g., "better models on ImageNet don't predict the brain as well" without full detail). Full credit at this tier if the student shows they read the paper — even a brief correct description suffices.
+- **+ 2 pts** — Mentions something from Linsley et al. but vaguely or partially inaccurately (e.g., "they say DNNs aren't good models" without a specific finding).
+- **+ 0.75 pts** — Barely references the paper.
 - **+ 0 pts** — No reference to Linsley et al., or completely misrepresents the paper.
 
 ### 1b. Specific lightning talk paper (2 pts)
 
-- **+ 2 pts** — Identifies a specific lightning talk paper and describes its key finding or method. Remember students saw 4.5-minute presentations — approximate descriptions are fine.
-- ✔ **+ 1.5 pts** — Names a paper but description is thin (e.g., "Yamins et al. showed a DNN predicts brain responses"). Still earns most of the credit.
-- **+ 1 pt** — Mentions a paper but inaccurately or very vaguely.
+- ✔ **+ 2 pts** — Names a specific lightning talk paper and captures its key idea, even briefly. Remember students saw 4.5-minute presentations — approximate descriptions earn full credit.
+- **+ 1.25 pts** — Names a paper but description is very thin or just a label (e.g., "Yamins et al. did something with brain prediction").
+- **+ 0.5 pts** — Vague reference without clearly identifying a specific paper.
 - **+ 0 pts** — No reference to any lightning talk paper.
 
 ### 1c. Meaningful connection (3 pts)
 
-- **+ 3 pts** — Draws a clear connection explaining whether the lightning talk paper avoids, is vulnerable to, or directly illustrates the concerns Linsley et al. raise. Addresses what would strengthen the conclusions.
+- **+ 3 pts** — Draws a clear, insightful connection explaining whether the lightning talk paper avoids, is vulnerable to, or directly illustrates the concerns Linsley et al. raise. Addresses what would strengthen the conclusions.
 - ✔ **+ 2.5 pts** — Makes a reasonable connection. May be somewhat general but still shows the student thought about how the Linsley et al. argument applies (or doesn't) to the specific paper.
-- **+ 1.5 pts** — Attempts a connection but it is vague or doesn't go beyond restating what each source says separately.
+- **+ 1.75 pts** — Attempts a connection but it is vague or doesn't go beyond restating what each source says separately.
+- **+ 0.75 pts** — Very thin — mentions both sources but no meaningful link between them.
 - **+ 0 pts** — No connection attempted.
 
 ### 1d. Clarity & engagement (2 pts)
 
-- **+ 2 pts** — Writing is clear and demonstrates genuine engagement with the material. Response is roughly within word count.
-- ✔ **+ 1.5 pts** — Writing is clear but rushed, or reads more like a summary than a reflection.
-- **+ 1 pt** — Hard to follow or clearly written without much engagement.
+- ✔ **+ 2 pts** — Writing is clear and on-topic. This is the default for any readable response that is roughly within word count. Don't require exceptional prose.
+- **+ 1.25 pts** — Readable but rushed or well under word count.
+- **+ 0.5 pts** — Hard to follow or clearly written without engagement.
 - **+ 0 pts** — Incoherent or clearly didn't engage with the material.
 
 *Total: \_\_ / 10*
@@ -169,10 +171,10 @@ Each entry includes the paper's actual authors, a short summary, and relevance t
 | Score | What it looks like |
 |-------|-------------------|
 | 10 | Specific finding, specific paper, insightful connection that addresses resolution — goes above and beyond |
-| 8–9 | Both sources identified, reasonable connection, clear writing. **This is the target for a good student.** |
-| 6–7 | Both sources mentioned but connection is surface-level or one source is vague |
-| 4–5 | Only one source clearly referenced, or connection is generic |
-| 1–3 | Minimal effort, no meaningful engagement |
+| 9–9.5 | Both sources identified, reasonable connection, clear writing. **This is the target for a good student.** |
+| 7.5–8.5 | Both sources mentioned but connection is surface-level or one source is vague |
+| 5–7 | Only one source clearly referenced, or connection is generic |
+| 1–4 | Minimal effort, no meaningful engagement |
 | 0 | No submission |
 
 ---
@@ -203,7 +205,7 @@ That said, Brain-Score is more than just a neural prediction benchmark — it al
 
 ---
 
-### Sample B — Score: 9/10
+### Sample B — Score: 9.5/10
 
 Linsley et al. argue that the strategies modern DNNs use to achieve high object-recognition accuracy have diverged from those used by the human visual system. Using the ClickMe platform, they show that more accurate models rely on features that are progressively less aligned with what humans find important for recognition — things like background textures and contextual cues rather than the objects themselves. This suggests that scaling up DNNs has pushed them toward non-biological shortcuts.
 
@@ -211,11 +213,11 @@ This is directly relevant to Yamins et al.'s (2014) finding that a task-optimize
 
 To strengthen the conclusions from both papers, researchers could systematically track neural alignment across model generations — not just for ITC responses, but also for behavioral measures like human-consistent error patterns and feature importance. If the inflection point Linsley et al. describe also appears in these behavioral measures, that would confirm the divergence is fundamental rather than an artifact of the neural fitting procedure.
 
-*[1a: 3 — clearly describes the divergent strategies finding with the ClickMe evidence. 1b: 1.5 — names Yamins et al. and captures the key finding, though description of the method is thin. 1c: 2.5 — good connection placing Yamins et al. on the "before the inflection point" side of the trend, with a reasonable proposal for strengthening. 1d: 2 — clear and well-organized. Total: 9/10.]*
+*[1a: 3 — clearly describes the divergent strategies finding with the ClickMe evidence. 1b: 2 — names Yamins et al. and captures the key finding ("task-optimized DNN predicts neural responses in macaque V4 and IT"). 1c: 2.5 — good connection placing Yamins et al. on the "before the inflection point" side of the trend, with a reasonable proposal for strengthening. 1d: 2 — clear and well-organized. Total: 9.5/10.]*
 
 ---
 
-### Sample C — Score: 8/10
+### Sample C — Score: 9.25/10
 
 Linsley et al. show that as DNNs have gotten more accurate on ImageNet, their alignment with primate visual cortex has actually gotten worse. There's an inflection point beyond which better AI performance means worse biological modeling. They suggest this is because modern models use different visual features from humans.
 
@@ -223,11 +225,11 @@ This made me think about the language model papers from the lightning talks, par
 
 This is speculative since Linsley et al. only tested vision, but it would be interesting to track language model–brain alignment over time the way they tracked vision model alignment.
 
-*[1a: 2.5 — captures the inflection point correctly but thin on the mechanism. 1b: 1.5 — names Schrimpf et al. (language) and the key finding. 1c: 2 — creative cross-domain extension asking whether the pattern could generalize to language; somewhat speculative but shows genuine thinking. 1d: 2 — clear writing and genuine engagement. Total: 8/10.]*
+*[1a: 2.75 — captures the inflection point correctly, thin on mechanism but shows engagement. 1b: 2 — names Schrimpf et al. (language) and captures the key finding about next-word prediction driving alignment. 1c: 2.5 — creative cross-domain extension asking whether the pattern could generalize to language; speculative but shows genuine thinking. 1d: 2 — clear writing, on-topic. Total: 9.25/10.]*
 
 ---
 
-### Sample D — Score: 6.5/10
+### Sample D — Score: 7.25/10
 
 Linsley et al. argue that modern DNNs are not good models of the brain even though they're really good at classifying images. They show that the correlation between accuracy and brain alignment has flipped.
 
@@ -235,7 +237,7 @@ This connects to the Brain-Score paper by Schrimpf et al. which tries to rank mo
 
 I think this is an important issue for the field. We need better ways to evaluate whether models are actually processing information like the brain rather than just predicting brain activity well.
 
-*[1a: 2.5 — mentions the inflection/flipped correlation but brief. 1b: 1.5 — names Brain-Score, thin description. 1c: 1 — "important issue" and "need better ways" is too vague; doesn't explain specifically what would strengthen conclusions or how the concerns apply. 1d: 1.5 — readable but rushed. Total: 6.5/10.]*
+*[1a: 2.5 — mentions the flipped correlation but very brief, between the ✔ and 2-pt tiers. 1b: 2 — names Brain-Score and captures the idea ("rank models by how brain-like they are"). 1c: 1.5 — makes a logical connection ("models that score highest on ImageNet might not be best brain models") but stays surface-level; doesn't address what would strengthen conclusions beyond "we need better ways." 1d: 1.25 — readable but rushed and under word count. Total: 7.25/10.]*
 
 ---
 
@@ -262,10 +264,10 @@ These are natural connections students might draw. Many other pairings are valid
 
 After scoring a response using the detailed rubric, sanity-check the total:
 
-- Specific finding, specific paper, thoughtful connection → **9–10**
-- Both sources mentioned, reasonable connection → **8–9**
-- Both sources mentioned but connection is surface-level → **6–7**
-- Only one source clearly engaged → **4–5**
-- Minimal effort → below **4**
+- Specific finding, specific paper, thoughtful connection → **9.5–10**
+- Both sources mentioned, reasonable connection → **9–9.5**
+- Both sources mentioned but connection is surface-level → **7.5–8.5**
+- Only one source clearly engaged → **5–7**
+- Minimal effort → below **5**
 
 If the rubric score doesn't match the benchmark, re-check the sub-component scores.

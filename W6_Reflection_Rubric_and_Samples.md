@@ -117,30 +117,32 @@ Students may reference any of the following. They do not need to use this exact 
 ### 1a. Thorpe's framework — correct understanding (2.5 pts)
 
 - ✔ **+ 2.5 pts** — Correctly identifies that Thorpe's key distinction is about the interpretability of individual units. Full credit even if the explanation is brief — the student just needs to show they understood the core criterion. Does not need to explicitly contrast interpretability with sparsity.
-- **+ 1.5 pts** — Uses Thorpe's framework but describes it vaguely or partially (e.g., "local means you can tell what a neuron does" without specifying this is about *individual units* being interpretable in isolation, or conflates local coding with sparsity or one-to-one mapping).
+- **+ 2 pts** — Correct general idea but doesn't fully articulate "individual units interpretable in isolation" (e.g., "local means you can tell what a neuron does" without specifying the in-isolation aspect).
+- **+ 1.25 pts** — Uses Thorpe's framework but conflates local coding with sparsity or one-to-one mapping (e.g., "each neuron represents a specific thing").
 - **+ 0.5 pts** — Mentions Thorpe but mischaracterizes the framework (e.g., equates local coding with "exactly one neuron fires") or only uses the terms without explanation.
 - **+ 0 pts** — No reference to Thorpe, or completely misrepresents the paper.
 
 ### 1b. Clear position with reasoning (2.5 pts)
 
 - ✔ **+ 2.5 pts** — Takes a clear position (local, distributed, or mixed/it depends) and gives reasons. The bar here is low: any student who commits to a position and provides reasoning — even if compressed — earns full credit.
-- **+ 1.5 pts** — Takes a position but the reasoning is very thin or purely asserted (e.g., "I think it's distributed" with no supporting logic).
-- **+ 0.5 pts** — Hedges without committing (e.g., "it's complicated" without explaining why) or states a position with no reasoning at all.
+- **+ 1.75 pts** — Takes a position but the reasoning is very thin or purely asserted (e.g., "I think it's distributed" with no supporting logic).
+- **+ 1 pt** — Hedges without committing (e.g., "it's complicated" without explaining why) or states a position with no reasoning at all.
 - **+ 0 pts** — No position taken.
 
 ### 1c. Specific evidence from lightning talk papers (3 pts)
 
 - **+ 3 pts** — Cites at least two specific findings from the lightning talk papers as evidence, with clear connections to the local/distributed argument. Full credit for using any of: feature visualization, curve detectors, Spider-Man neurons, polysemanticity, SAEs, TCAV, CRAFT, concept bottleneck models, Grad-CAM, Fel et al.'s concept geometry.
 - ✔ **+ 2.5 pts** — Cites at least two papers/findings but one is described thinly or the connection to the argument is somewhat loose.
-- **+ 2 pts** — Cites one specific paper well, or cites two but both are thin.
+- **+ 1.75 pts** — Cites one specific paper well, or cites two but both are thin.
 - **+ 1 pt** — Vague references to "the readings" without specific findings or papers.
 - **+ 0 pts** — No evidence from the lightning talks.
 
 ### 1d. Clarity & engagement (2 pts)
 
 - ✔ **+ 2 pts** — Writing is clear and coherent. This is the default for any on-topic, readable response that is roughly within word count. Don't require exceptional prose — readable and organized is sufficient.
-- **+ 1 pt** — Hard to follow, well under word count, or clearly rushed with minimal engagement.
-- **+ 0 pts** — Incoherent or clearly didn't engage with the material.
+- **+ 1.25 pts** — Readable but well under word count, or clearly rushed with minimal engagement.
+- **+ 0.5 pts** — Hard to follow or incoherent.
+- **+ 0 pts** — No meaningful engagement with the material.
 
 *Total: \_\_ / 10*
 
@@ -150,11 +152,11 @@ Students may reference any of the following. They do not need to use this exact 
 
 | Score | What it looks like |
 |-------|-------------------|
-| 10 | Accurate Thorpe framework, clear position, multiple specific examples, nuanced argument (e.g., acknowledges layer/model dependence) |
-| 8–9 | Thorpe framework present, position taken, specific examples, clear writing. **This is the target for a good student.** |
-| 6–7 | Position taken but evidence is thin or Thorpe's framework is underused |
-| 4–5 | Only one source clearly referenced, or argument lacks coherence |
-| 1–3 | Minimal effort, no meaningful engagement |
+| 10 | Accurate Thorpe framework, clear position, multiple specific examples, nuanced argument (e.g., acknowledges layer/model dependence, grapples with the SAE paradox) |
+| 9–9.5 | Thorpe framework present, position taken with reasoning, specific examples from papers, clear writing. **This is the target for a good student.** |
+| 7.5–8.5 | Position taken but evidence is somewhat thin or Thorpe's framework is described vaguely |
+| 5–7 | Only one source clearly referenced, or Thorpe's framework is mischaracterized |
+| 1–4 | Minimal effort, no meaningful engagement |
 | 0 | No submission |
 
 ---
@@ -188,7 +190,7 @@ This creates a fascinating paradox that Thorpe's framework helps clarify. The SA
 
 ---
 
-### Sample B — Score: 9/10
+### Sample B — Score: 9.5/10
 
 Thorpe (1989) defines the local-vs-distributed distinction not by how many neurons fire, but by whether each neuron's activity is meaningful in isolation. A locally coded network has neurons you can label — "this one detects faces," "this one detects curves." A distributed code requires looking at the full pattern of activity to extract meaning. Using this criterion, I argue that modern deep networks are fundamentally distributed, though some locally coded features emerge — particularly in vision models and particularly at intermediate layers.
 
@@ -198,11 +200,11 @@ On the other hand, Olah et al.'s (2017, 2020) feature visualization work demonst
 
 How do we reconcile these? I think the answer is layer- and model-dependent. In vision networks, early layers develop something close to coarse coding (Thorpe's intermediate category) — neurons with interpretable but broad tuning, like oriented edge detectors. Some middle-layer neurons achieve genuinely local coding. But as you move to later layers and larger models — especially language models — the code becomes increasingly distributed. The network packs more information into the same number of units via superposition, sacrificing per-unit interpretability for representational efficiency. The locally coded features that SAEs recover suggest the *information* is there, but it's written in a distributed format that requires decoding to read.
 
-*[1a: 2.5 — clearly articulates Thorpe's interpretability criterion. 1b: 2.5 — clear position (fundamentally distributed, with layer-dependent local pockets). 1c: 2.5 — cites three papers (Cunningham SAEs, Olah feature viz, Goh multimodal neurons) with clear connections; descriptions are accurate but slightly thinner than Sample A. 1d: 1.5 — clear and well-organized, but the final paragraph rushes the synthesis. Total: 9/10.]*
+*[1a: 2.5 — clearly articulates Thorpe's interpretability criterion. 1b: 2.5 — clear position (fundamentally distributed, with layer-dependent local pockets). 1c: 2.5 — cites three papers (Cunningham SAEs, Olah feature viz, Goh multimodal neurons) with clear connections; descriptions are accurate but slightly thinner than Sample A. 1d: 2 — clear, well-organized, on-topic writing throughout. Total: 9.5/10.]*
 
 ---
 
-### Sample C — Score: 8/10
+### Sample C — Score: 9.25/10
 
 According to Thorpe (1989), the key to distinguishing local from distributed coding is whether individual neurons are interpretable on their own. If you can say what a single neuron "means," the code is local; if meaning only emerges from the population pattern, it's distributed.
 
@@ -212,11 +214,11 @@ That said, some neurons are genuinely interpretable. The Spider-Man neuron from 
 
 I think the answer depends on what layer and what model you look at. Vision models seem to have more locally coded neurons, especially in early-to-middle layers. Language models seem more distributed, which is why we need SAEs to make sense of them.
 
-*[1a: 2 — describes the criterion correctly but briefly, doesn't explore subtleties. 1b: 2 — position is clear (mostly distributed, depends on model/layer) but the argument is somewhat compressed. 1c: 2.5 — cites three papers (Cunningham, Goh, Olah) accurately; connections are present but could be more developed. 1d: 1.5 — clear writing, within word count, but reads a bit like a list rather than a developed argument. Total: 8/10.]*
+*[1a: 2.5 — correctly identifies Thorpe's interpretability criterion ("whether individual neurons are interpretable on their own"). Brief but accurate. 1b: 2.5 — commits to "mostly distributed" with layer/model-dependent reasoning. 1c: 2.25 — cites three papers (Cunningham, Goh, Olah) with connections present but less developed than B; reads somewhat list-like. 1d: 2 — clear, on-topic, readable writing. Total: 9.25/10.]*
 
 ---
 
-### Sample D — Score: 6.5/10
+### Sample D — Score: 7/10
 
 Thorpe talks about local vs. distributed coding, where local means each neuron represents a specific thing and distributed means the representation is spread across many neurons.
 
@@ -226,7 +228,7 @@ But a lot of neurons are polysemantic, meaning they respond to unrelated things.
 
 Overall I'd say it's more distributed than local, especially in bigger models where there's more polysemanticity. But the fact that some neurons are interpretable means it's not fully distributed either.
 
-*[1a: 1 — mentions Thorpe but misses the key criterion (describes it as "each neuron represents a specific thing" rather than the interpretability criterion; conflates local with one-to-one mapping). 1b: 2 — takes a position (more distributed than local) with reasoning. 1c: 2 — mentions curve detector, Spider-Man neuron, and SAEs, but descriptions are thin and lack paper citations. 1d: 1.5 — readable but short and underdeveloped. Total: 6.5/10.]*
+*[1a: 1.25 — mentions Thorpe but conflates local coding with one-to-one mapping ("each neuron represents a specific thing") rather than clearly stating the interpretability criterion. 1b: 2.5 — commits to "more distributed than local" and gives a reason (polysemanticity in bigger models). 1c: 2 — mentions curve detector, Spider-Man neuron, and SAEs, but descriptions are thin and lack paper citations (between the 2.5 and 1.75 tiers). 1d: 1.25 — readable but well under word count (~160 words vs. ~400 target). Total: 7/10.]*
 
 ---
 
@@ -251,10 +253,10 @@ These are natural arguments students might make. Many other formulations are val
 
 After scoring a response using the detailed rubric, sanity-check the total:
 
-- Accurate Thorpe framework, clear position, multiple specific examples, nuanced argument → **9–10**
-- Thorpe framework present, position taken, reasonable evidence → **8–9**
-- Position taken but evidence thin or Thorpe's framework underused → **6–7**
-- Only one source clearly engaged, or argument lacks coherence → **4–5**
-- Minimal effort → below **4**
+- Accurate Thorpe framework, clear position, multiple specific examples, nuanced argument → **9.5–10**
+- Thorpe framework present, position taken with reasoning, reasonable evidence → **9–9.5**
+- Position taken but evidence somewhat thin or Thorpe's framework vague → **7.5–8.5**
+- Only one source clearly engaged, or Thorpe mischaracterized → **5–7**
+- Minimal effort → below **5**
 
 If the rubric score doesn't match the benchmark, re-check the sub-component scores.
