@@ -60,3 +60,12 @@ dist/
 .website_ready/
 website
 website
+
+# PowerPoint lock files
+~$*.pptx
+
+# Extracted figures (too large for git, regenerable)
+figures/
+
+# Paper PDFs
+papers/week*/
